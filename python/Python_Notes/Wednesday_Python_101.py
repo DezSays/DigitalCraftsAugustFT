@@ -91,9 +91,9 @@ else:
 # Here are examples of multiple conditions
 # isRaining = False -- this does not need to be listed again, because we already assigned isRaining to False on line 15.
 
-isSunny = True
+isSunny = False
 
-
+# AND - meaning both conditions on either side of the and must be true
 if currentTemp < freezingTemp and isRaining == True:
     print('It is freezing and raining. Snow/hail time yall.')
 elif currentTemp > freezingTemp and isRaining == False:
@@ -101,3 +101,70 @@ elif currentTemp > freezingTemp and isRaining == False:
 else:
     print('It is not a lovely day.')
     
+# OR - only one needs to be true
+if currentTemp < freezingTemp or isRaining == True:
+    print('It is freezing or it is raining. Either way, stay inside today guys.')
+elif currentTemp > freezingTemp or isRaining == False:
+    print('It is a clear day today!')
+
+if isSunny != True:
+    print('It is not sunny. The != operator in the if statement means not.')
+    
+# Class Exercise: create a program that takes in the id number of the user and prints "1st" if the id is less than 100 and 2nd if its greater than 100 but less than 250. If the id is greater than 250 then print "all reservations taken".
+# In order to complete this exercise, you will need to use int() to tell the computer that it needs to listen for the input of an integer. 
+
+try:
+    id = int(input("Type in your reservation number: "))
+    if id <= 100 and id > 0:
+        print("1st")
+    elif id > 100 and id < 250:
+        print("2nd")
+    elif id > 250:
+        print("All reservations have been filled. Please try again later.")
+    else:
+        print("This is not a number in our system. Please check your reservation number and try again.")
+except ValueError:
+    print("The input was not a valid integer. Please check your reservation number and try again.")
+
+
+# Lists
+
+GeorgiaPeeps = ['Dez', 'Matt', 'Dre']
+
+# Print the entire list
+print(GeorgiaPeeps)
+
+# Print the first individual. It is important to remember that the index for any list begins with the number 0, not 1. So to access the first name in this list, we need to do the following:
+print(GeorgiaPeeps[0])
+
+# For Loop Examples Below
+
+# Example 1, will print all names
+for name in GeorgiaPeeps:
+    print(name)
+    
+# Example 2, will change the names. Dez will now show up as TA in the printed list, Dre as Instructor, and Matt as Student as opposed to their names.
+for name in GeorgiaPeeps:
+    if name == 'Dre':
+        print("Instructor")
+    elif name == 'Dez':
+        print('TA')
+    else:
+        print("Student")
+
+# Example 3, will print the numbers 0-9
+for number in range(10):
+    print(number)
+
+# Example 4, print numbers 5-10
+for number in range(5,11):
+    print(number)
+    
+# Print the first letter of Atlanta 
+city = 'Atlanta'
+print(city[0])
+
+# How to delete the last item from an array:
+GeorgiaPeeps.pop()
+print(GeorgiaPeeps)
+
