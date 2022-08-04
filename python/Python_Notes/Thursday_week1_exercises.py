@@ -20,7 +20,7 @@ print(sample[::-1])
 # Reversing a list:
 sampleList = ['first', 'second', 'third']
 
-print(sampleList[::-1]) #this is how you print using slice. This is exclusive to Python, but is by far the simplest way to reverse.
+print(sampleList[::-1]) #this is how you print using slice. This is exclusive to Python, but is by far the simplest way to reverse. However, it is important that you know how to do this using a while loop for an interview. 
 
 # Below is how you would reverse the list using a while loop:
 newList=[]
