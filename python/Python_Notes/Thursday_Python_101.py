@@ -69,3 +69,32 @@ try:
 except ValueError:
     print("The input was not a valid integer.")
     
+# How to do a lexicon comparison. It is important to note that capital letters will always display as being before lower case. See below for example:
+mysteryLetter = 'F'
+firstNameLetter = 'd'
+if firstNameLetter < mysteryLetter:
+    print('first name comes before mystery letter')
+else:
+    print('mystery letter comes before first name')
+    
+# Exercise: Place students in breakout rooms and organize them by their first name. Pay attention to capitalization! If your cutoff letter is a lower case but all the student are upper case, the upper case will always display before the lower case letters. Use the .lower() function to resolve this. 
+students = ['Matt', 'Carlos', 'An', 'Jordan B.']
+breakoutRoom1 = []
+breakoutRoom2 = []
+cutOffLetter = 'i'
+
+for element in students:
+    if element[0].lower() <= cutOffLetter:
+        breakoutRoom1.append(element)
+    elif element[0].lower() > cutOffLetter:
+        breakoutRoom2.append(element)
+        
+        
+print(breakoutRoom1)
+print(breakoutRoom2)
+
+# Concatenate String example:
+fName = 'Dez'
+lName = 'Bryan'
+fullName = fName + ' ' + lName
+print(fullName)
