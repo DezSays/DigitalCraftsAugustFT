@@ -57,7 +57,7 @@ print(circle_area)
 def wearSweater() -> None:
     
     temp = int(input("What is the temp outside? "))
-    himidity = int(input("What is the humidity? "))
+    humidity = int(input("What is the humidity? "))
     windSpeed = int(input("What is the wind speed? "))
     
     wearSweater = False
