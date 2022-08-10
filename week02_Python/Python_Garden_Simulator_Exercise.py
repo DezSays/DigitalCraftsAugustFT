@@ -268,6 +268,16 @@
     
 #     turn += 1
 
+
+
+
+
+
+
+
+
+
+
 # Group 3 solution
 
 # import random
@@ -383,3 +393,150 @@
 #     #input("")
     
 #     turn += 1
+
+
+
+
+
+
+
+
+
+
+# Group 4 solution
+
+# import random
+# from types import MethodType
+
+# class Garden:
+#     def __init__(self, turn):
+#         self.turn = turn
+
+#     treeList = []
+#     gnomeList = []
+#     woodChuckList = []
+
+# class Tree:
+#     def __init__(self, waterLevel):
+#         self.waterLevel = waterLevel
+
+# class WoodChuck:
+#     def __init__(self,name,chopPercent):
+#         self.name = name
+#         self.chopPercent = chopPercent
+
+# class Gnome: 
+#     def __init__(self, name, gnomeRainPercent):
+#         self.name = name
+#         self.gnomeRainPercent = gnomeRainPercent
+
+# #   ****Garden object instantiated********
+# myGardenObj = Garden(0)
+
+# #   ****Gnome object instantiated******** 
+# theGnome = Gnome("Steven", 0)
+
+# #  ****WoodChuck object instantiated******** 
+# theWoodChuck = WoodChuck("Chuck",0)
+
+# #****Tree object instantiated******** 
+# theTree = Tree(0)
+
+# def fiftyFiftyChance(methodOne: MethodType,MethodTwo: MethodType):
+#     randomNumber = random.randint(0,1)
+#     if(randomNumber == 0 ):
+#         methodOne
+#     else:
+#         MethodTwo
+#         print("you did not win the FiftyFifty")
+
+# def chanceOfShade():
+#     print()
+    
+# def treeCreator():
+#     myGardenObj.treeList.append(theTree)
+
+# def gnomeCreator():
+#     myGardenObj.gnomeList.append(theGnome)
+
+
+# def chanceOfTreeLoss():
+#     randomNumber = random.randint(1, 100)
+#     for chuck in myGardenObj.woodChuckList:
+#         theWoodChuck.chopPercent += 5
+
+#     print(f"this is the newChuck percent{theWoodChuck.chopPercent}")
+#     if(theWoodChuck.chopPercent <= randomNumber):
+#         myGardenObj.treeList.remove
+#         theWoodChuck.chopPercent = 0 
+#         print(f"this was removed {myGardenObj.treeList.remove}")
+#     if(theTree.waterLevel <=0):
+#         myGardenObj.treeList.remove
+#         print(f"this was removed {myGardenObj.treeList.remove}")
+
+# def woodChuckCreator():
+#     myGardenObj.woodChuckList.append(theWoodChuck)
+# def woodChuckTreeChop():
+#     if(theWoodChuck.chopPercent>= 100):
+#         myGardenObj.treeList.remove
+#         theWoodChuck.chopPercent = 0 
+
+
+# # removes water per turn but not too much
+# def waterRemover():
+#     theTree.waterLevel -= 5
+#     if(theTree.waterLevel < 0):
+#         theTree.waterLevel = 0
+
+# # adds water but not too much
+# def addsWater():
+#     theTree.waterLevel += 25
+#     if(theTree.waterLevel > 100):
+#         theTree.waterLevel = 100
+
+# def addRainChanceAndReset():
+#     randomNumber = random.randint(1, 100)
+#     for x in myGardenObj.gnomeList:
+#         theGnome.gnomeRainPercent += 5
+#     if(theGnome.gnomeRainPercent >= 100):
+#         treeCreator()
+#         theGnome.gnomeRainPercent = 0
+#     elif(randomNumber <= theGnome.gnomeRainPercent):
+#         addsWater()
+#         #print(f"its gonna rain! the random number is:{randomNumber} the gnomeRainPercent number is :{theGnome.gnomeRainPercent}")
+#     else:
+#         print()
+#         #print(f"It did not rain my dude! the random number is:{randomNumber} the gnomeRainPercent number is :{theGnome.gnomeRainPercent}"                                                                        )
+
+# userInput = input()
+
+# def gameStatus():
+#     print(f"This is turn number {myGardenObj.turn}")
+#     print(f"The tree count is at {len(myGardenObj.treeList)} ")
+#     print(f"The gnome count is at {len(myGardenObj.gnomeList)} ")
+#     print(f"The woodchuck count is at {len(myGardenObj.gnomeList)} ")
+#     print(f"The water level is at {theTree.waterLevel} ")
+#     print(f"The chance of rain is at {theGnome.gnomeRainPercent} ")
+#     print(f"The chance of you losing a tree caused by a woodchuck is {theWoodChuck.chopPercent}")
+
+# def userDecision():
+#     print()
+
+# tenthTurn = 0
+# i = 0
+# while len(myGardenObj.treeList) < 10:
+#     myGardenObj.turn += 1
+#     i += 1
+#     tenthTurn += 1
+#     if(tenthTurn == 10):
+#         fiftyFiftyChance(treeCreator(),gnomeCreator())
+#         tenthTurn = 0
+#     chanceOfShade()
+#     waterRemover()
+#     fiftyFiftyChance(addRainChanceAndReset(),woodChuckCreator())
+#     gnomeCreator()
+#     chanceOfTreeLoss()
+#     woodChuckTreeChop()
+#     gameStatus()
+#     userDecision()
+#     #print ("Number of items in the list = ", len(myGnomeListObj.gnomeList))
