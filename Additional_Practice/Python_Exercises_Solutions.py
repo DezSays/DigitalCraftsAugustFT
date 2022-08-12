@@ -22,11 +22,24 @@
 
 # *Exercise 2 Solution*
 
-previous_num = 0        # Set up the initial value of the previous number globally. 
+# previous_num = 0                            # Set up the initial value of the previous number globally. 
 
-for current_num in range(1, 11):  # Set up your for loop from 1 to 10
-    sum_value = previous_num + current_num
-    print("Current Number:", current_num, "Previous Number:", previous_num, " Sum:", previous_num + current_num)
-    # modify previous number
-    # set it to the current number
-    previous_num = current_num
+# for current_num in range(1, 11):            # Set up your for loop from 1 to 10
+#     sum_value = previous_num + current_num  # Assign the previous number plus the current number to the variable sum_value
+#     print("Current Number:", current_num, "Previous Number:", previous_num, " Sum:", previous_num + current_num) 
+#     # Modify the previous number variable by setting it to the current number variable each time it iterates through the loop
+#     previous_num = current_num
+    
+    
+    
+    
+# *Exercise 3 Solution*
+
+name = input("What is your name: ")                                 # Have the user enter their name
+age = int(input("How old will you be by the end of this year: "))   # Have the user enter how old they will be by the end of this year
+current_year = int(input("What is the current year: "))             # Have the user input the current year
+year = current_year - age + 100                                     # Take the current year, subtract the users age, and add 100 then assign this to a variable labeled year. 
+print(name + " will be 100 years old in " + str(year))              #Print out the users name and convert the year to a string so that you can concatenate everything as a string. 
+
+
+

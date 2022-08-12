@@ -23,20 +23,3 @@
     # 15% chance of punching the flight attendant in the face
         # Special Ability
             # If a passenger decides to Chuck Norris the flight attendant, 5% chance the attendant is KO'd, resulting in the entire flight being 
-
-
-col = ['A', 'B', 'C', 'D']
-row = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
-  
-string_row = [str(int) for int in row]
-string_col = [str(int) for int in col]
-
-
-
-str_of_row = ",".join(string_row)
-str_of_col = ",".join(string_col)
-
-newList = [f'{str_of_row}, {str_of_col}']
-
-
-print(newList)

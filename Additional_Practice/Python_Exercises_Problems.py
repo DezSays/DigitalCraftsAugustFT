@@ -29,3 +29,13 @@
 # Current Number 7 Previous Number  6  Sum:  13
 # Current Number 8 Previous Number  7  Sum:  15
 # Current Number 9 Previous Number  8  Sum:  17
+
+
+
+
+
+#*Exercise 3: Create a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old.*
+
+# Expected Output:
+
+# Dezarea will be 100 years old in 2095.
