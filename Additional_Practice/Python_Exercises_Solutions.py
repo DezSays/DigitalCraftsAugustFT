@@ -57,12 +57,31 @@
 
 
 # *Exercise 4 Solution*
-num = int(input("What number would you like to enter: ")) # Get the user to input a number, and use the int function to convert their input into an integer instead of a string.
 
-def even_or_odd(number: int) -> int:        # Create a function that takes in one parameter, an integer
-    if number % 2 == 0:                     # Set up if statement to see if the number entered could be divided by two with a remainder of 0.
-        print('Even number')                # If the remainder is 0, print even number. 
-    else:                                   # If there is a remainder,
-        print('Odd number')                 # Print out odd number 
+# num = int(input("What number would you like to enter: ")) # Get the user to input a number, and use the int function to convert their input into an integer instead of a string.
+
+# def even_or_odd(number: int) -> int:        # Create a function that takes in one parameter, an integer
+#     if number % 2 == 0:                     # Set up if statement to see if the number entered could be divided by two with a remainder of 0.
+#         print('Even number')                # If the remainder is 0, print even number. 
+#     else:                                   # If there is a remainder,
+#         print('Odd number')                 # Print out odd number 
         
-even_or_odd(num)                            # Call the function and pass in the variable used for the number given to us by the user.
+# even_or_odd(num)                            # Call the function and pass in the variable used for the number given to us by the user.
+
+
+
+
+
+
+# *Exercise 5 Solution*
+
+
+# sample_list = [5, 10, 15, 20, 25]   # Create a generic sample list
+
+
+# def newList(old_list: list) -> list:    # Create a function that takes in one parameter, a list. 
+#     new_list = [old_list[0], old_list[len(old_list)-1]] # Set up variable, new list, which will hold the values of what is in the first and last index of the sample list. We need to take the first number in sample list, which can be found and index 0, and the last number in sample list, which we get by taking the sample list, and inside the index take the length of sample list - 1, which will give us the number found in the last index of sample list.
+#     print(new_list)     # Print out the numbers we found in the first and last index of the sample list 
+    
+
+# newList(sample_list)    # Call our function and pass in the sample_list

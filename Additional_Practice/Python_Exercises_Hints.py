@@ -22,3 +22,10 @@
 # *EXERCISE 4 HINT*
 # Use the input function to get the users number, and make sure you are getting an integer back.
 # Write a function to check if the number given would be divisible by 2 with a remainder of zero. If so, print even; else, print odd.
+
+
+
+
+# *EXERCISE 5 HINT* 
+# Create a function to take in one parameter(a list).
+# Use the len() function and indices to get the numbers located in the first and last position of your list.
