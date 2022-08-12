@@ -28,19 +28,22 @@
 
 # solution 1
 
-# str1 = input("Please enter the first word you would like to compare: ")
-# str2 = input("Please enter the second word you would like to compare: ")
+str1 = input("Please enter the first word you would like to compare: ")
+str2 = input("Please enter the second word you would like to compare: ")
 
-# def anagramNoSortMethod(str1, str2):
-#     if len(str1) != len(str2):
-#         return "False"
-        
-#     dict_str1 = {}
-#     dict_str2 = {}
+
+def anagramNoSortMethod(str1, str2):
+    if len(str1) != len(str2):
+        return "False"
     
-#     return "True" if dict_str1 == dict_str2 else "False"
 
-# print(anagramNoSortMethod(str1, str2))
+    dict_str1 = {}
+    dict_str2 = {}
+
+    
+    return "True" if dict_str1 == dict_str2 else "False"
+
+print(anagramNoSortMethod(str1, str2))
 
 
 
