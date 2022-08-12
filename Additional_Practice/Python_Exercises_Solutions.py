@@ -33,13 +33,24 @@
     
     
     
-# *Exercise 3 Solution*
+# *Exercise 3 PART 1 Solution*
+
+# name = input("What is your name: ")                                 # Have the user enter their name
+# age = int(input("How old will you be by the end of this year: "))   # Have the user enter how old they will be by the end of this year
+# current_year = int(input("What is the current year: "))             # Have the user input the current year
+# year = current_year - age + 100                                     # Take the current year, subtract the users age, and add 100 then assign this to a variable labeled year. 
+# print(name + " will be 100 years old in " + str(year))              #Print out the users name and convert the year to a string so that you can concatenate everything as a string. 
+    
+    
+    
+    
+# *Exercise 3 PART 2 Solution*
 
 name = input("What is your name: ")                                 # Have the user enter their name
 age = int(input("How old will you be by the end of this year: "))   # Have the user enter how old they will be by the end of this year
 current_year = int(input("What is the current year: "))             # Have the user input the current year
 year = current_year - age + 100                                     # Take the current year, subtract the users age, and add 100 then assign this to a variable labeled year. 
-print(name + " will be 100 years old in " + str(year))              #Print out the users name and convert the year to a string so that you can concatenate everything as a string. 
+print(f'{name} will be 100 years old in {year}')              #Print out the users name and year they will turn one hundred by using an f string, which allows you to combine different data types.
 
 
 

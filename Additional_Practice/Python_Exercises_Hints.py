@@ -13,7 +13,7 @@
 
 
 
-# *EXERCISE 3 HINT*
+# *EXERCISE 3 PART 1 HINT*
 
 # Use the input function to get the users name, age they will be by the end of this year, and the current year.
 # Subtract the users age from the current year and add 100 to it. Assign the results to a variable.
