@@ -46,11 +46,23 @@
     
 # *Exercise 3 PART 2 Solution*
 
-name = input("What is your name: ")                                 # Have the user enter their name
-age = int(input("How old will you be by the end of this year: "))   # Have the user enter how old they will be by the end of this year
-current_year = int(input("What is the current year: "))             # Have the user input the current year
-year = current_year - age + 100                                     # Take the current year, subtract the users age, and add 100 then assign this to a variable labeled year. 
-print(f'{name} will be 100 years old in {year}')              #Print out the users name and year they will turn one hundred by using an f string, which allows you to combine different data types.
+# name = input("What is your name: ")                                 # Have the user enter their name
+# age = int(input("How old will you be by the end of this year: "))   # Have the user enter how old they will be by the end of this year
+# current_year = int(input("What is the current year: "))             # Have the user input the current year
+# year = current_year - age + 100                                     # Take the current year, subtract the users age, and add 100 then assign this to a variable labeled year. 
+# print(f'{name} will be 100 years old in {year}')              #Print out the users name and year they will turn one hundred by using an f string, which allows you to combine different data types.
 
 
 
+
+
+# *Exercise 4 Solution*
+num = int(input("What number would you like to enter: ")) # Get the user to input a number, and use the int function to convert their input into an integer instead of a string.
+
+def even_or_odd(number: int) -> int:        # Create a function that takes in one parameter, an integer
+    if number % 2 == 0:                     # Set up if statement to see if the number entered could be divided by two with a remainder of 0.
+        print('Even number')                # If the remainder is 0, print even number. 
+    else:                                   # If there is a remainder,
+        print('Odd number')                 # Print out odd number 
+        
+even_or_odd(num)                            # Call the function and pass in the variable used for the number given to us by the user.

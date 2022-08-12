@@ -50,3 +50,12 @@
 
 # Dezarea will be 100 years old in 2095.
 
+
+
+
+
+
+# *Exercise 4: Ask the user for a number. Depending on whether the number is even or odd, print out an even or odd message to the user. *
+
+
+
