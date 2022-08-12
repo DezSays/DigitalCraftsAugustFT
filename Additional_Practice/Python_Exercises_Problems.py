@@ -57,8 +57,37 @@
 
 # *Exercise 4: Ask the user for a number. Depending on whether the number is even or odd, print out an even or odd message to the user. *
 
+# Expected Output (if even number):
+
+# Even Number
+
+
+
+# Expected Output (if odd number):
+
+# Odd Number
+
+
 
 
 
 # *Exercise 5: Write a program that takes a list of numbers (for example, a = [5, 10, 15, 20, 25]) and makes a new list of only the first and last elements of the given list. For practice, write this code inside a function. *
+
+# Expected Output
+
+# [5, 25]
+
+
+
+
+
+# *Exercise 6: Print characters from a string that are present at an even index number. Write a program to accept a string from the user and display characters that are present at an even index number. *
+
+
+# Expected Output if the original string was dezarea:
+# d
+# z
+# r
+# a
+
 

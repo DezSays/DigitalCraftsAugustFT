@@ -29,3 +29,11 @@
 # *EXERCISE 5 HINT* 
 # Create a function to take in one parameter(a list).
 # Use the len() function and indices to get the numbers located in the first and last position of your list.
+
+
+
+# *EXERCISE 6 HINT*
+# Use Python input() function to accept a string from a user.
+# Calculate the length of string using the len() function
+# Next, iterate each character of a string using for loop and range() function.
+# Use start = 0, stop = len(word), and step =2. the step is 2 because we want only even index numbers

@@ -20,7 +20,7 @@
 
 
 
-# *Exercise 2 Solution*
+# *Exercise 2 Solution and Explanation*
 
 # previous_num = 0                            # Set up the initial value of the previous number globally. 
 
@@ -33,7 +33,7 @@
     
     
     
-# *Exercise 3 PART 1 Solution*
+# *Exercise 3 PART 1 Solution and Explanation*
 
 # name = input("What is your name: ")                                 # Have the user enter their name
 # age = int(input("How old will you be by the end of this year: "))   # Have the user enter how old they will be by the end of this year
@@ -44,7 +44,7 @@
     
     
     
-# *Exercise 3 PART 2 Solution*
+# *Exercise 3 PART 2 Solution and Explanation*
 
 # name = input("What is your name: ")                                 # Have the user enter their name
 # age = int(input("How old will you be by the end of this year: "))   # Have the user enter how old they will be by the end of this year
@@ -55,8 +55,7 @@
 
 
 
-
-# *Exercise 4 Solution*
+# *Exercise 4 Solution and Explanation*
 
 # num = int(input("What number would you like to enter: ")) # Get the user to input a number, and use the int function to convert their input into an integer instead of a string.
 
@@ -71,10 +70,7 @@
 
 
 
-
-
-# *Exercise 5 Solution*
-
+# *Exercise 5 Solution and Explanation*
 
 # sample_list = [5, 10, 15, 20, 25]   # Create a generic sample list
 
@@ -85,3 +81,15 @@
     
 
 # newList(sample_list)    # Call our function and pass in the sample_list
+
+
+
+
+# *Exercise 6 Solution and Explanation*
+
+# word = input("Please enter a word: ")       # Get the users input and assign it to the variable word
+
+# length_of_word = len(word)      # Get the length of the word entered by the user, and assign it to the variable length_of_word
+
+# for letter in range(0, length_of_word, 2):   # For each letter that is within the range of the first index position (which is why we have the 0) to however long the users word was (which is why we have length_of_word), we want each letter that falls on an even index (which is why we have the 2). 
+#     print(word[letter])     # Print out the letters that are on even indices of the given word. 
