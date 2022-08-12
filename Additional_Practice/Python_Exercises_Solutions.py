@@ -93,3 +93,4 @@
 
 # for letter in range(0, length_of_word, 2):   # For each letter that is within the range of the first index position (which is why we have the 0) to however long the users word was (which is why we have length_of_word), we want each letter that falls on an even index (which is why we have the 2). 
 #     print(word[letter])     # Print out the letters that are on even indices of the given word. 
+
