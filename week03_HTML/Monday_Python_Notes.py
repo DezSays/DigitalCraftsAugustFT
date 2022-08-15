@@ -1,4 +1,4 @@
-# Given a list of numbers, write a function that tallies the number of even and add occurrences and returns the result. Write a unit test to prove your function works.
+# Given a list of numbers, write a function that tallies the number of even and add occurrences and returns the result. 
 
 import unittest 
 
@@ -17,12 +17,3 @@ def even_or_odd(nums:list) -> int:
 even_or_odd(nums)
     
 
-
-class TestNums(unittest.TestCase):
-
-    def test_even_or_odd(self):
-        self.assertEqual(even_or_odd(nums), None)
-
-unittest.main()
-
-    
