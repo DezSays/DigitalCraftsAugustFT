@@ -36,3 +36,4 @@
 # Calculate the length of string using the len() function
 # Next, iterate each character of a string using for loop and range() function.
 # Use start = 0, stop = len(word), and step =2. the step is 2 because we want only even index numbers
+
