@@ -92,6 +92,11 @@
 
 
 
-# *Exercise 7: Implement a function that takes as input three variables, and returns the largest of the three. Do this without using the Python max() function! *
+# *Exercise 7: Write a program to remove characters from a string starting from zero up to x and return a new string. 
 
+# For example:
+
+# remove_chars("dezbryan", 4) so output must be ryan. Here we need to remove first four characters from a string.
+# remove_chars("dezbryan", 2) so output must be zbryan. Here we need to remove first two characters from a string.
+# Note: x must be less than the length of the string.
 

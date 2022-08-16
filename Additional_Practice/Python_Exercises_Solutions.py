@@ -94,3 +94,15 @@
 # for letter in range(0, length_of_word, 2):   # For each letter that is within the range of the first index position (which is why we have the 0) to however long the users word was (which is why we have length_of_word), we want each letter that falls on an even index (which is why we have the 2). 
 #     print(word[letter])     # Print out the letters that are on even indices of the given word. 
 
+
+
+# *Exercise 7 Solution and Explanation*
+
+# def remove_characters(word: str, x: int) -> str: # Set up a function to take in a string and an integer
+#     i = word[x:] # Set the variable i = the string sliced by a given number
+#     print(i) # print out the string after it has been sliced 
+
+# specified_word = "dezbryan" # Set up a variable to equal the string we want to slice
+
+# remove_characters(specified_word, 4) # Our function takes our string and slices off the first 4 letters, giving us the output of ryan. 
+# remove_characters(specified_word, 2) # Our function takes our string and slices off the first 2 letters, giving us the output of zbryan. 

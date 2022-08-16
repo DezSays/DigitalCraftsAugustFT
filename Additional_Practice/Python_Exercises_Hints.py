@@ -39,4 +39,5 @@
 
 
 
-# *The goal of this exercise is to think about some internals that Python normally takes care of for us. All you need is some variables and if statements! There are many ways to answer this question, ranging from simple to complex. *
+# *EXERCISE 7 HINT* 
+# Use string slicing to get the substring. For example, to remove the first four characters use x[4:].
