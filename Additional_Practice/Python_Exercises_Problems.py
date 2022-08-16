@@ -114,10 +114,41 @@
 
 
 
-#  * Exercise 9: Iterate the given list of numbers and return to a new list only those numbers which are divisible by 5
+#  * Exercise 9: Iterate the given list of numbers and return to a new list only those numbers which are divisible by 5 *
 
 # For example: 
 
 # list =  [10, 20, 33, 46, 55]
 # Divisible by 5, output will be
 # [10, 20, 55]
+
+
+
+#  * Exercise 10: Write a program to find how many times substring “Dez” appears in the given string. *
+
+# x = "Dez is good developer. Dez is a turkey."
+
+# Expected Output:
+
+# 2
+
+
+
+#  * Exercise 11: Print the following pattern *
+
+# 1 
+# 2 2 
+# 3 3 3 
+# 4 4 4 4 
+# 5 5 5 5 5 
+
+
+
+#  * Exercise 12: Given a two list of numbers, write a program to create a new list such that the new list should contain odd numbers from the first list and even numbers from the second list. *
+
+# list1 = [10, 20, 25, 30, 35]
+# list2 = [40, 45, 60, 75, 90]
+
+# Expected Output:
+
+# [25, 35, 40, 60, 90]

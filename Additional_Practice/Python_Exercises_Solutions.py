@@ -143,3 +143,40 @@
 # multiples_of_5(list)                    #Call our function and pass in our list
 
 
+
+# *Exercise 10 Solution and Explanation*
+
+# x = "Dez is good developer. Dez is a turkey." #Here is the string we are going to use the count method on.
+
+# word_repeats = x.count("Dez") # Use count method of a str class to count how many occurances of Dez are in the string.
+
+# print(word_repeats) #Print out the number of times Dez is found in the string.
+
+
+
+# *Exercise 11 Solution and Explanation*
+
+# for nums in range(6): # This for loop sets up the loop to ranges to 6
+#     for numbers in range(nums): # This for loop takes each number within the range above and runs this through each number
+#         print (nums, end=" ") # This prints the numbers and adds the appropriate spacing
+#     print("\n") # This is needed to print each row of numbers on a new line to display pattern correctly.
+
+
+
+# *Exercise 12 Solution and Explanation*
+
+# firstList = [10, 20, 25, 30, 35]                      # set up first list to pull out odd numbers
+# secondList = [40, 45, 60, 75, 90]                     # set up second list to pull out even numbers
+# newList = []                                          # set up an empty new list 
+
+# def specified_list(list1: list, list2: list) -> list: # set up function that takes in two lists and we expect it to return a new list
+#     for num in list1:                                 # iterate through the first list
+#         if num % 2 != 0:                              # check if current number is odd
+#             newList.append(num)                       # add odd number to result list
+    
+#     for num in list2:                                 # iterate through the second list
+#         if num % 2 == 0:                              # check if current number is even
+#             newList.append(num)                       # add even number to result list
+#     print(newList)                                    # print out our new list
+
+# specified_list(firstList, secondList)                 # call our function and pass in our first and second lists

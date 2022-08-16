@@ -54,3 +54,23 @@
 # Set up an empty list to placeyour new numbers in.
 # Return all numbers that are divisible by 5 evenly. 
 # Append those numbers to a new list.
+
+
+
+# *EXERCISE 10 HINT*
+# Use string method count().
+
+
+
+# *EXERCISE 11 HINT*
+# Use a for loop and range.
+
+
+
+# *EXERCISE 12 HINT*
+# Create an empty list
+# Iterate first list using a for loop
+# In each iteration, check if the current number is odd using num % 2 != 0 formula. If the current number is an odd number, add it to the result list
+# Now, Iterate the first list using a loop.
+# In each iteration, check if the current number is even using num % 2 == 0 formula. If the current number is an even number, add it to the result list
+# print the result list
