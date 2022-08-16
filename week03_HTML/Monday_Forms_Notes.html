@@ -1,23 +1,35 @@
-<form>
-    <fieldset>
-        <legend>User Login</legend>
-            <p>
-                <label for="Username">Username</label>
-                <!-- The input type tells the browser what constant will be in the box. This way the browser knows how to parse the informaiton. In the case of text, the browser knows it is reading a string. Notice also how the input closes. It closes within itself, instead of having </input> at the end, we just close the input as such. -->
-                <input type="text" name="username" id="username-box" />
-            </p>
-            <p>
-                <label for="Password">Password</label>
-                <!-- The input type tells the browser what constant will be in the box. This way the browser knows how to parse the informaiton. In the case of text, the browser knows it is reading a string. Notice also how the input closes. It closes within itself, instead of having </input> at the end, we just close the input as such. -->
-                <input type="text" name="password" id="password-box" />
-            </p>
-            <!-- Placing # in the href will allow the user to click on the link and it will keep them on the current page. This is used as a placeholder. -->
-            <a href="#">Forgot password?</a>
-            <p>
-                <label for="Remember Me">Remember me</label>
-                <input type="checkbox" name="remember-me" id="remember-me-box" />
-            </p>
-    </fieldset>
-    <!-- We use the submit type for the login button -->
-    <input type="submit" id="login-button" value="Login"/>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./css/forms.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>User Login</legend>
+                <p>
+                    <label for="Username">Username</label>
+                    <!-- The input type tells the browser what constant will be in the box. This way the browser knows how to parse the informaiton. In the case of text, the browser knows it is reading a string. Notice also how the input closes. It closes within itself, instead of having </input> at the end, we just close the input as such. -->
+                    <input type="text" name="username" id="username-box" />
+                </p>
+                <p>
+                    <label for="Password">Password</label>
+                    <!-- The input type tells the browser what constant will be in the box. This way the browser knows how to parse the informaiton. In the case of text, the browser knows it is reading a string. Notice also how the input closes. It closes within itself, instead of having </input> at the end, we just close the input as such. -->
+                    <input type="text" name="password" id="password-box" />
+                </p>
+                <!-- Placing # in the href will allow the user to click on the link and it will keep them on the current page. This is used as a placeholder. -->
+                <a href="#">Forgot password?</a>
+                <p>
+                    <label for="Remember Me">Remember me</label>
+                    <input type="checkbox" name="remember-me" id="remember-me-box" />
+                </p>
+        </fieldset>
+        <!-- We use the submit type for the login button -->
+        <input type="submit" id="login-button" value="Login"/>
+    </form>
+</body>
+</html>

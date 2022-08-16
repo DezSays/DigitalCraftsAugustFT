@@ -37,3 +37,6 @@
 # Next, iterate each character of a string using for loop and range() function.
 # Use start = 0, stop = len(word), and step =2. the step is 2 because we want only even index numbers
 
+
+
+# *The goal of this exercise is to think about some internals that Python normally takes care of for us. All you need is some variables and if statements! There are many ways to answer this question, ranging from simple to complex. *
