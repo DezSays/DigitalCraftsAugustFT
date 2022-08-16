@@ -41,3 +41,16 @@
 
 # *EXERCISE 7 HINT* 
 # Use string slicing to get the substring. For example, to remove the first four characters use x[4:].
+
+
+
+# *EXERCISE 8 HINT* 
+# Use the index of the list, and write an if/else statement to compare and return either true or false. 
+
+
+
+# *EXERCISE 9 HINT* 
+# Write a function that determines which numbers can be divided by 5 with a remainder of 0.
+# Set up an empty list to placeyour new numbers in.
+# Return all numbers that are divisible by 5 evenly. 
+# Append those numbers to a new list.

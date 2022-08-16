@@ -100,3 +100,24 @@
 # remove_chars("dezbryan", 2) so output must be zbryan. Here we need to remove first two characters from a string.
 # Note: x must be less than the length of the string.
 
+
+
+# * Exercise 8: Write a function to return True if the first and last number of a given list is same. If numbers are different then return False.*
+
+# For example:
+
+# x: [10, 20, 30, 40, 10]
+# True
+
+# y = [75, 65, 35, 75, 30]
+# False
+
+
+
+#  * Exercise 9: Iterate the given list of numbers and return to a new list only those numbers which are divisible by 5
+
+# For example: 
+
+# list =  [10, 20, 33, 46, 55]
+# Divisible by 5, output will be
+# [10, 20, 55]

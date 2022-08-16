@@ -106,3 +106,40 @@
 
 # remove_characters(specified_word, 4) # Our function takes our string and slices off the first 4 letters, giving us the output of ryan. 
 # remove_characters(specified_word, 2) # Our function takes our string and slices off the first 2 letters, giving us the output of zbryan. 
+
+
+
+# *Exercise 8 Solution and Explanation*
+
+# def compare_nums(nums:list) -> bool: #Set up our function to take in a list and return a boolean.
+    
+#     first_num = nums[0]         #Assign first_num variable = first number in the nums list
+#     last_num = nums[-1]         #Assign last_num variable = last number in the nums list
+    
+#     if first_num == last_num:   #If the first number in the list is the same as the last number in the list
+#         print(True)             #then we want it to return true
+#     else:                       #if the two numbers are not the same
+#         print(False)            #then we want it to return false
+
+# x = [10, 20, 30, 40, 10]        #list we are comparing the first and last indices of
+# compare_nums(x)                 #pass in our list to our function
+
+# y = [75, 65, 35, 75, 30]        #list we are comparing the first and last indices of
+# compare_nums(y)                 #pass in our list to our function
+
+
+
+# *Exercise 9 Solution and Explanation*
+
+# list =  [10, 20, 33, 46, 55]            #Setting up a list we want to pull all multiples of five.
+# newList = []                            #Setting up an empty list that we will later append our multiples of five to.
+
+# def multiples_of_5(nums: list) -> list: #Setting up our function with one parameter, a list, with the expectation of this function producing us another list. 
+#     for numbers in nums:                #For each number in the list that we pass in to our function
+#         if numbers % 5 == 0:            #If that number can be divided by 5 with a remainder of 0,
+#             newList.append(numbers)     #Append the numbers that are multiples of 5 to the new list
+#     print(newList)                      #Print off our new list
+
+# multiples_of_5(list)                    #Call our function and pass in our list
+
+
