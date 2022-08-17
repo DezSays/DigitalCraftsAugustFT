@@ -38,7 +38,7 @@ dogs = [{
 def sendDoggos(doggos:list) -> list:
     newShelter = []
     for dog in doggos:
-        if dog["weight"] >= 50 or dog["color"] == "brown":
+        if dog["weight"] >= 50 or dog["color"] == ("brown"):
             newShelter.append(dog)
     return(newShelter)
     
