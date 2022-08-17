@@ -1,0 +1,51 @@
+#card {
+    width: 150px;
+    height: 150px;
+    border: 2px thick black;
+    padding: 5px;
+    margin:2px;
+
+    /* Static: the default positioning if no position is chosen. Always aligned with the normal flow of the page.*/
+    /* position: static; */
+
+    /* Absolute: the element is going to be positioned next to the nearest parent element */
+    position: relative;
+}
+
+.content {
+    padding-bottom: 2px;
+    background-color: aquamarine;
+    /* This element position relative to the normal layout */
+    position: relative;
+}
+
+#title {
+    /* This element should be positioned based on the the user's scroll position */
+    position: sticky;
+    top: 0;
+    border: 2px dashed black;
+    align-content: center;
+    align-self: center;
+    margin-bottom: 10px;
+    background-color: gray;
+    z-index: 2;
+    opacity: .97;
+}
+
+.navbar {
+    position: relative;
+    top: 0;
+    
+}
+
+a {
+    align-self: right;
+    align-content: center;
+    float: right;
+    margin: 5px;
+    
+}
+
+.links {
+    list-style-type: none;
+}

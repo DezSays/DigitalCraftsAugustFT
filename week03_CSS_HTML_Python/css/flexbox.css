@@ -1,0 +1,27 @@
+.container {
+    /* Introduces flexbox properties to our class */
+    display: flex;
+    /* padding-right: 15px;
+    margin-right: 10px; */
+    /* Reverses order of contents starting on the right side  */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
+
+    
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+}
+
+.number2 {
+    /* Changes the size of an individual div */
+    flex-grow: 2;
+    border: 3px solid yellow;
+}
+
+.number1 {
+    flex-grow: 3;
+}
