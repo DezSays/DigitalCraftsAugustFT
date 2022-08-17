@@ -180,3 +180,28 @@
 #     print(newList)                                    # print out our new list
 
 # specified_list(firstList, secondList)                 # call our function and pass in our first and second lists
+
+
+
+# *Exercise 13 Solution 1 and Explanation*
+
+# num = 7536              # Set up a number you would like to see reversed
+
+# reversed_num = 0        # Set up variable that our new int will be
+
+# while num != 0:         # Set up your while loop to run as long as the number is not 0.
+#     digit = num % 10    # the remainder of the num divided by 10 is stored in the variable digit. Now, the digit contains the last digit of num
+#     reversed_num = reversed_num * 10 + digit # digit is then added to the variable reversed after multiplying it by 10. Multiplication by 10 adds a new place in the reversed number.
+#     num //= 10          # num is then divided by 10 so that now it only contains the first three digits
+
+# print(reversed_num)     # print out our new number
+
+
+
+
+# *Exercise 13 Solution 2 and Explanation*
+
+# num = 7536              # Set up number we want reversed
+
+# print(str(num)[::-1])   # Turn our integer into a string, slice that bad boy, then print it out
+

@@ -152,3 +152,11 @@
 # Expected Output:
 
 # [25, 35, 40, 60, 90]
+
+
+
+#  * Exercise 13: Write a Program to extract each digit from an integer in the reverse order. *
+
+# For example: 
+    
+# If the given int is 7536, the output is “6357“.

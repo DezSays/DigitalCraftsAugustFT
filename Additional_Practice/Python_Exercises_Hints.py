@@ -74,3 +74,13 @@
 # Now, Iterate the first list using a loop.
 # In each iteration, check if the current number is even using num % 2 == 0 formula. If the current number is an even number, add it to the result list
 # print the result list
+
+
+
+# *EXERCISE 13 PART 1 HINT *
+# Use a while loop
+
+
+
+# *EXERCISE 13 PART 2 HINT *
+# Use the slice method unique to Python
