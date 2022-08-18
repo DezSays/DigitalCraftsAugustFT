@@ -205,3 +205,37 @@
 
 # print(str(num)[::-1])   # Turn our integer into a string, slice that bad boy, then print it out
 
+
+
+
+# *Exercise 14 Solution and Explanation*
+
+# for num1 in range(1, 11):           #Set up a for loop for the first number with a range of 10
+#     for num2 in range(1, 11):       #Set up a for loop for the second number with a range of 10
+#         print(num1 * num2, end=" ") #Multiply the first number and the second number, and add a space at the end
+#     print("\t\t")                   #Gives us even space between
+
+
+
+
+# *Exercise 15 Solution and Explanation*
+
+# for space in range(6, 0, -1):           #for each space in range starting with 6 and decrementing
+#     for star in range(0, space - 1):    #for each star in range of 0 to 5
+#         print("*", end=' ')             #this prints the star on each line and ends it with a space
+#     print(" ")                          #this prints the stars vertically instead of horizontally
+
+
+
+
+# *Exercise 16 Solution and Explanation*
+
+def exponent(base: int, exponent:int) -> int:
+    num = exponent
+    result = 1
+    while num > 0:
+        result = result * base
+        num = num - 1
+    print(f"{base} raised to the power of {exponent} is: {result}")
+
+exponent(5, 4)
