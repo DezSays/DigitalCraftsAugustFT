@@ -230,12 +230,12 @@
 
 # *Exercise 16 Solution and Explanation*
 
-def exponent(base: int, exponent:int) -> int:   #set up function to take in two parameters
-    num = exponent                              #assign variable num = the exponent parameter
-    result = 1                                  #Let the result equal to one, not zero. Anything multiplied by 0 will always be 0.
-    while num > 0:                              #set up while loop so that as long as the exponent is larger than 0
-        result = result * base                  #set the result equal to the answer of our equation
-        num = num - 1                           #decrement our exponent so we aren't in an infinite loop
-    print(f"{base} raised to the power of {exponent} is: {result}") #using an f string, print our results
+# def exponent(base: int, exponent:int) -> int:   #set up function to take in two parameters
+#     num = exponent                              #assign variable num = the exponent parameter
+#     result = 1                                  #Let the result equal to one, not zero. Anything multiplied by 0 will always be 0.
+#     while num > 0:                              #set up while loop so that as long as the exponent is larger than 0
+#         result = result * base                  #set the result equal to the answer of our equation
+#         num = num - 1                           #decrement our exponent so we aren't in an infinite loop
+#     print(f"{base} raised to the power of {exponent} is: {result}") #using an f string, print our results
 
-exponent(5, 4)                                  #call our function and pass in the base and the exponent.
+# exponent(5, 4)                                  #call our function and pass in the base and the exponent.
