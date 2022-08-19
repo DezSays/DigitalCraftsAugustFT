@@ -1,0 +1,43 @@
+.dog-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dog-image {
+    display: block;
+    width: 100%;
+}
+
+/* When media queries, we tell the computer to change the properties of an element based on the size of the screen */
+
+/* small screen */
+@media screen and (min-width: 500px) {
+    .dog-image {
+        width: 50%;
+    }
+}
+
+/* medium screen */
+@media screen and (min-width: 1000px) {
+    .dog-image {
+        width: 33.333%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dog-gallery {
+        border: 10px solid #234dfb
+    }
+    .dog-image {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width: 1000px) {
+    .dog-image {
+        border: 10px solid #9ca3db;
+        width: 250px;
+        height: 250px;
+    }
+}

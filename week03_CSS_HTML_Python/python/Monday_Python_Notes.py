@@ -1,6 +1,6 @@
 # Given a list of numbers, write a function that tallies the number of even and add occurrences and returns the result. 
 
-import unittest 
+
 
 nums = [1,2,3,4,5,6,7,8,9,10]
 def even_or_odd(nums:list) -> int:
