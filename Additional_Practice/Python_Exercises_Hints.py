@@ -103,3 +103,58 @@
 
 # *EXERCISE 16 HINT *
 # Use a while loop in your function. 
+
+
+
+# *EXERCISE 17 HINT *
+# The file you are trying to read MUST be located in your root directory.
+# Use the split function
+# Use a for loop
+# Set your initial count variable to 0
+# Increment the count
+
+
+
+# *EXERCISE 18 HINT *
+# The file you are trying to read MUST be located in your root directory.
+# Use the split function
+# Use a for loop and an if statement
+# Set your initial count variable to 0
+# Increment the count
+
+
+
+# *EXERCISE 19 HINT *
+# The file you are trying to read MUST be located in your root directory.
+# Use the split function
+# Use a for loop and an if statement, getting the length of each word < 4
+
+
+
+# *EXERCISE 20 HINT *
+# The file you are trying to read MUST be located in your root directory.
+# Use the split function
+# Use a for loop and an if statement
+# Use .lower()
+# Set your initial count variable to 0
+# Increment the count
+
+
+
+# *EXERCISE 21 HINT *
+# The file you are trying to read MUST be located in your root directory.
+# Use the split function
+# Use a for loop and an if statement
+# Get the last index and see if it == 'e'
+# Set your initial count variable to 0
+# Increment the count
+
+
+
+# *EXERCISE 22 HINT *
+# The file you are trying to read MUST be located in your root directory.
+# Use a for loop and an if statement
+# See if the letter is upper case, using .isupper()
+# Set your initial count variable to 0
+# Increment the count
+

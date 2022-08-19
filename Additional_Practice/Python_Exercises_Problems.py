@@ -210,3 +210,66 @@
 
 # 5 raises to the power of 4 is: 625 
 # i.e. (5 *5 * 5 *5 = 625)
+
+
+
+#  * Exercise 17: Using file handling, write a function in Python to count and display the total number of words in a text file. *
+
+# Expected output if your document had 7 words:
+
+# Total words are: 7
+
+
+
+#  * Exercise 18: Using file handling, write a function in Python to read lines from a text file. Your function should find and display the occurrence of the word "the", both upper and lower case! *
+
+# For example: If the content of the file is:
+
+# "We will be learning about bootstrap today! This file will also be the file that is used for our additional practices. The individuals that do the extra practice are certainly going to benefit from putting in the extra work."
+
+# The output should be 4. 
+
+
+
+
+#  * Exercise 19: Using file handling, write a function to read lines from a text file and display those words which are less than 4 characters. *
+
+# For example: If the content of the file is:
+
+# "We will be learning about bootstrap today! This file will also be the file that is used for our additional practices. The individuals that do the extra practice are certainly going to benefit from putting in the extra work."
+
+# The expected output should be: We be be the is for our The do the are to in the 
+
+
+
+
+#  * Exercise 20: Using file handling, write a function to count the words "this" and "that" present in a text file. *
+
+# For example: If the content of the file is:
+
+# "We will be learning about bootstrap today! This file will also be the file that is used for our additional practices. The individuals that do the extra practice are certainly going to benefit from putting in the extra work."
+
+# The expected output should be: 8
+
+
+
+
+#  * Exercise 21: Using file handling, write a function to count words in a text file those are ending with letter "e". *
+
+# For example: If the content of the file is:
+
+# "We will be learning about bootstrap today! This file will also be the file that is used for our additional practices. The individuals that do the extra practice are certainly going to benefit from putting in the extra work."
+
+# The expected output should be: 11
+
+
+
+
+#  * Exercise 22: Using file handling, write a function to count uppercase character in a text file. *
+
+# For example: If the content of the file is:
+
+# "We will be learning about bootstrap today! This file will also be the file that is used for our additional practices. The individuals that do the extra practice are certainly going to benefit from putting in the extra work."
+
+# The expected output should be: 3
+

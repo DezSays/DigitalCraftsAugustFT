@@ -239,3 +239,108 @@
 #     print(f"{base} raised to the power of {exponent} is: {result}") #using an f string, print our results
 
 # exponent(5, 4)                                  #call our function and pass in the base and the exponent.
+
+
+
+
+# *Exercise 17 Solution and Explanation*
+
+# def count_words():                          #Set up our function
+#     file = open("newFile.txt","r")          #Set file = open('name-of-file.filetype', and here we have r to assign the read command)
+#     count = 0                               #Set the initial count value to zero
+#     data = file.read()                      #Assign the variable data = reading our file
+#     words = data.split()                    #Assign the variable words = the reading of our file and 'split' the sentences so we can count the words instead of the letters
+#     for word in words:                      #For every word in our file 
+#         count += 1                          #Increment the count by 1
+#     print(f"Total words are: {count}")      #Print out the amount of words by printing our count variable
+#     file.close()                            #Always remember to close your files so you don't have a data leak!
+
+# count_words()                               #Call our function
+
+
+
+
+# *Exercise 18 Solution and Explanation*
+
+# def count_words():                          #Set up our function
+#     file = open("newFile.txt","r")          #Set file = open('name-of-file.filetype', and here we have r to assign the read command)
+#     count = 0                               #Set the initial count value to zero
+#     data = file.read()                      #Assign the variable data = reading our file
+#     words = data.split()                    #Assign the variable words = the reading of our file and 'split' the sentences so we can count the words instead of the letters
+#     for word in words:                      #For every word in our file
+#         if word =="the" or word =="The":    #If the word is either lower case or upper case 'The'
+#             count += 1                      #Then we increment our count by 1
+#     print(count)                            #Print out the amount of words by printing our count variable
+#     file.close()                            #Always remember to close your files so you don't have a data leak!
+
+# count_words()                               #Call our function
+
+
+
+
+# # *Exercise 19 Solution and Explanation*
+
+# def display_words():                        #Set up our function
+#     file = open("newFile.txt","r")          #Set file = open('name-of-file.filetype', and here we have r to assign the read command)
+#     data = file.read()                      #Assign the variable data = reading our file
+#     words = data.split()                    #Assign the variable words = the reading of our file and 'split' the sentences so we can count the words instead of the letters
+#     for word in words:                      #For every word in our file
+#         if len(word) < 4:                   #If the length of the word is less than 4
+#             print(word, end=" ")            #This prints out our words less than four, the end=" " allows us to print them horizontally like a sentence instead of vertically.
+#     file.close()                            #Always remember to close your files so you don't have a data leak!
+
+# display_words()                             #Call our function
+
+
+
+
+# # *Exercise 20 Solution and Explanation*
+
+# def count_words():                          #Set up our function
+#     file = open("newFile.txt","r")          #Set file = open('name-of-file.filetype', and here we have r to assign the read command)
+#     count = 0                               #Set the initial count value to zero
+#     data = file.read()                      #Assign the variable data = reading our file
+#     words = data.split()                    #Assign the variable words = the reading of our file and 'split' the sentences so we can count the words instead of the letters
+#     for word in words:                      #For every word in our file
+#         word = word.lower()                 #Turn all words into lower case so that our if statement will count upper and lower case words.
+#         if word == 'this' or word =='that': #If the word is either this or that
+#             count+=1                        #Then we need to increment the count by 1
+#     print(count)                            #Print out our new count variable
+#     file.close()                            #Always remember to close your files so you don't have a data leak!
+
+# count_words()                               #Call our function
+
+
+
+
+# # *Exercise 21 Solution and Explanation*
+
+# def count_words():                          #Set up our function
+#     file = open("newFile.txt","r")          #Set file = open('name-of-file.filetype', and here we have r to assign the read command)
+#     count = 0                               #Set the initial count value to zero
+#     data = file.read()                      #Assign the variable data = reading our file
+#     words = data.split()                    #Assign the variable words = the reading of our file and 'split' the sentences so we can count the words instead of the letters
+#     for word in words:                      #For every word in our file
+#         if word[-1] == 'e':                 #If the last index of our word is an 'e'
+#             count+=1                        #Then we need to increment the count by 1
+#     print(count)                            #Print out our new count variable
+#     file.close()                            #Always remember to close your files so you don't have a data leak!
+
+# count_words()                               #Call our function
+
+
+
+
+# # *Exercise 22 Solution and Explanation*
+
+# def count_letter():                          #Set up our function
+#     file = open("newFile.txt","r")           #Set file = open('name-of-file.filetype', and here we have r to assign the read command)
+#     data = file.read()                       #Assign the variable data = reading our file
+#     count = 0                                #Set the initial count value to zero
+#     for letter in data:                      #For each letter in the words within our designated file
+#         if letter.isupper():                 #If the letter is upper case
+#             count+=1                         #Then we increment the count
+#     print(count)                             #Print out the new count
+#     file.close()                             #Always remember to close your files so you don't have a data leak!            
+
+# count_letter()                               #Call our function
