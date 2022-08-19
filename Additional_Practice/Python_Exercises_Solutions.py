@@ -343,4 +343,4 @@
 #     print(count)                             #Print out the new count
 #     file.close()                             #Always remember to close your files so you don't have a data leak!            
 
-# count_letter()                               #Call our function
+# count_letter()                               #Call our function!
