@@ -78,6 +78,9 @@ count--;     // this decrements by 1
 count+=5;     // this increments by 5
 console.log(`Count: ${count}`);
 
+
+
+
 // Instead of using keywords (such as 'and' or 'or') are replaced with operators:
 
 // If it is raining and the month is august then we want it to print out we're in the dog days of summer
@@ -88,4 +91,79 @@ if(isRaining && month == 'August') {
 //If it is sunny or if the year is 2022, print no time like the present
 if(!isRaining || year == 2022) {
     console.log(`No time like the present`)
+};
+
+// Loose comparison(evaluates the value): == vs. Strict Comparison(evaluates value AND type) ===
+
+// Even though there are no floats, we can still get decimals. To divide you could:
+console.log(5/2);
+
+// Conditional statement:
+if(!isRaining) {
+    console.log('You can go outside');
+}
+else if(isRaining){
+        console.log('You need to stay inside');
+};
+
+// Switch statements generually are used when we have to check several conditions. This keeps us from writing too many else if statements. 
+let day = new Date().getDay();    //this will give you a number representing the day of the week (sun:0, mon:1, etc.)
+
+switch (day) {
+    case 0:
+        console.log(`No chick fil a for you`)
+        break
+    case 1:
+        console.log(`Mondays...`)
+        break
+    case 2:
+        console.log(`T-Mobile Tuesday`)
+        break
+    case 3:
+        console.log(`Hump day!`)
+        break
+    case 4:
+        console.log(`Almost the weekend!`)
+        break
+    case 5:
+        console.log(`Friday!`)
+        break
+    case 6:
+        console.log(`Slick Deals Saturday`)
+        break
+    default: 
+        console.log(`Enter a valid day of the week`)
+}
+
+
+// How to do loops in JavaScript
+
+let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+
+// Example of a for loop
+for(let index = 0; index < days.length; index++){
+    console.log(days[index])
+}
+
+// Example of a while loop
+let i = 0;
+while(i < days.length) {
+    console.log(days[i]);
+    i++;
+}
+
+
+// Iterate backwards in an array
+for (let i = days.length - 1; i >= 0; i--) {
+    console.log(days[i]);
+}
+
+//Print out every day of the week that falls on an odd index
+for(let i = 1; i < days.length; i+=2) {
+    console.log(days[i]);
+};
+
+//Print out every day of the week that falls on an even index
+for(let i = 0; i < days.length; i+=2) {
+    console.log(days[i]);
 };
