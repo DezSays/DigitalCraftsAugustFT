@@ -213,7 +213,7 @@
 # for num1 in range(1, 11):           #Set up a for loop for the first number with a range of 10
 #     for num2 in range(1, 11):       #Set up a for loop for the second number with a range of 10
 #         print(num1 * num2, end=" ") #Multiply the first number and the second number, and add a space at the end
-#     print("\t\t")                   #Gives us even space between
+#     print("\t")                     #Gives us even space between so they stack nicely
 
 
 
