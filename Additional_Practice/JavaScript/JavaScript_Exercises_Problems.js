@@ -13,14 +13,11 @@
 
 
 
-
 //* Exercise 5: Calculate the sum of numbers in an array of numbers. *
 
 
 
-
 // * Exercise 6: Calculate the average of the numbers in an array of numbers. *
-
 
 
 
@@ -29,3 +26,11 @@
 
 
 //* Exercise 8: Find the maximum number in an array of numbers. *
+
+
+
+//* Exercise 9: Reverse an array. *
+
+
+
+//* Exercise 10: Reverse a string. *

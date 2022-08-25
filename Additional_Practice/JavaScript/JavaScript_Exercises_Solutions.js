@@ -108,6 +108,7 @@
 // let result = getPositives(numsList)
 // console.log(result)
 
+
 // * Solution 8 *
 
 
@@ -128,3 +129,44 @@
 // }
 // let result = largest(numList)
 // console.log(result)
+
+
+// * Solution 9 *
+
+
+// let arr = [1,2,3,4,5]
+
+// function reversed(arr){
+//     let newArr = [];
+    
+//     for(let num = arr.length - 1; num >= 0; num--)
+//     {
+//         newArr.push(arr[num]);
+//     }
+    
+//     return newArr;
+// }
+
+// let result = reversed(arr)
+// console.log(result)
+
+
+
+// * Solution 10 *
+
+
+// let str = 'Dezarea Bryan';
+
+// function reversed(str){
+//     let newStr = ''
+//     for(let word = str.length - 1; word >= 0; word--){
+//         let val = str[word]
+//         newStr += val
+//     }
+//     return newStr
+// }
+
+// let result = reversed(str);
+// console.log(result)
+
+
