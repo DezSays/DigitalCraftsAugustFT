@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+    <body>
+        <h1 id=header>DigitalCrafts</h1>
+        <ul id="nav-list"></ul>
+            <li class="link">Home</li>
+            <li class="link">About Us</li>
+            <li class="link">Products</li>
+
+            <form>
+                <fieldset>
+                    <div>
+                        <h1>Spotify</h1>
+                    </div>
+                    <div>
+                        <legend>User Login</legend>
+                        <p>
+                            <label for="Username">Username</label>
+                            <!-- type tells the browser what content will be in the input box -->
+                            <input type="text" name="username" class="textbox" id="username-box" placeholder="Username" />
+                        </p>
+                        <p>
+                            <label for="Password">Password</label>
+                            <input type="password" class="textbox" name="password" id="password-box" placeholder="Password" />
+                        </p>
+        
+                        <a href="https://www.spotify.com/us/password-reset/">Forgot Password?</a>
+                        <p>
+                            <label for="Remember Me">Remember Me</label>
+                            <input type="checkbox" name="remember" id="remember-box" />
+                        </p>
+                        <button type="submit">Login</button>
+                    </div>
+                </fieldset>
+    </body>
+</html>
+<script src="../js/dom.js"></script>

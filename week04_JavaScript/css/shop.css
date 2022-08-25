@@ -1,0 +1,39 @@
+#pic {
+    display: block;
+
+    width: 100px;
+    height: 100px;
+}
+
+#picbox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#l {
+    display: flex;
+}
+
+#stockbox {
+    display: flex;
+    /* justify-content: space-evenly; */
+    width: 50%;
+}
+
+#inStock {
+    justify-content: center;
+    order: 2;
+    align-items: center;
+
+}
+
+#cerealform {
+    justify-content: center;
+}
+
+#cerealFormBox {
+    width: 50%;
+    display: flex;
+    order: 1;
+}
