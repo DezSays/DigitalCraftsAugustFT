@@ -10,7 +10,7 @@ console.log(areaResult)
 
 // Arrow function
 let circumference = (radius) => {
-    const PI = 3.14
+    const PI = 3.14;
     return PI * (radius^2);
 };
 let circResult = circumference(10)

@@ -273,3 +273,26 @@
 
 # The expected output should be: 3
 
+
+
+
+#  * Exercise 23: The parameter weekday is True if it is a weekday, and the parameter vacation is True if we are on vacation. We sleep in if it is not a weekday or we're on vacation. Return True if we sleep in. *
+
+# For example:
+
+# sleep_in(False, False) → True
+# sleep_in(True, False) → False
+# sleep_in(False, True) → True
+
+
+
+
+#  * Exercise 24: Imagine that we have two monkeys, and the parameters a_smile and b_smile indicate if each monkey is smiling. We are in trouble if they are both smiling or if neither of them is smiling. Return True if we are in trouble and False if we are in the clear. *
+
+# For example:
+
+# monkey_trouble(True, True) → True
+# monkey_trouble(False, False) → True
+# monkey_trouble(True, False) → False
+
+

@@ -344,3 +344,31 @@
 #     file.close()                             #Always remember to close your files so you don't have a data leak!            
 
 # count_letter()                               #Call our function!
+
+
+
+
+# # *Exercise 23 Solution and Explanation*
+
+# def sleep_in(weekday: bool, vacation: bool) -> bool:          #Set up our function to take in two parameters
+#   if not weekday or vacation:                                 #If our first parameter is false or our second parameter is true
+#     return True                                               #return true
+#   else:                                                       #otherwise
+#     return False                                              #return false
+
+# print(sleep_in(False, False))                                 #print it out so we can see it, call our function, pass in parameters
+
+
+
+
+# # *Exercise 24 Solution and Explanation*
+
+# def monkey_trouble(a_smile: bool, b_smile: bool) -> bool:     #set up your function to take in two parameters
+#   if not a_smile and not b_smile:                             # if neither of them are smiling
+#     return True                                               # return true
+#   if a_smile and b_smile:                                     # if they are both smiling
+#     return True                                               # return true
+#   else:                                                       # otherwise
+#     return False                                              # return false
+
+# print(monkey_trouble(True, True))                             # print it out so we can see it, call our function, pass in parameters

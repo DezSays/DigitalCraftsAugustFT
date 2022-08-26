@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <div>
+        <h1>Register For Spotify</h1>
+    </div>
+    <form>
+        <div>
+            <legend>Registration</legend>
+            <div class="box">
+                <label for="Username">Email</label>
+                <!-- type tells the browser what content will be in the input box -->
+                <input type="email" name="username" class="form-control" id="username-box" placeholder="Username" required/>
+            </div>
+            <div class="box">
+                <label for="Password">Password</label>
+                <!-- Pattern uses regular expressions to check the value passed by the user -->
+                <input type="text" title="letters or numbers length 4-12, no special characters" minlength="4" maxlength="12" class="form-control" name="password" id="password-box" placeholder="Password" required/>
+            </div>
+            <div class="box">
+                <label for="Country">Country</label>
+                <!-- Pattern uses regular expressions to check the value passed by the user -->
+                <input type="text" class="form-control" name="password" id="password-box" placeholder="Password" required/>
+            </div>
+         
+            <button type="submit">Register</button>
+            <a href="./dom.html">If you already have an accout, login here</a>
+        </div>
+    </form>
+    
+</body>
+</html>

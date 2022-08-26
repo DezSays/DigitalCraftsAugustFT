@@ -6,38 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom</title>
 </head>
-    <body>
-        <h1 id=header>DigitalCrafts</h1>
-        <ul id="nav-list"></ul>
-            <li class="link">Home</li>
-            <li class="link">About Us</li>
-            <li class="link">Products</li>
-
-            <form>
-                <fieldset>
-                    <div>
-                        <h1>Spotify</h1>
-                    </div>
-                    <div>
-                        <legend>User Login</legend>
-                        <p>
-                            <label for="Username">Username</label>
-                            <!-- type tells the browser what content will be in the input box -->
-                            <input type="text" name="username" class="textbox" id="username-box" placeholder="Username" />
-                        </p>
-                        <p>
-                            <label for="Password">Password</label>
-                            <input type="password" class="textbox" name="password" id="password-box" placeholder="Password" />
-                        </p>
-        
-                        <a href="https://www.spotify.com/us/password-reset/">Forgot Password?</a>
-                        <p>
-                            <label for="Remember Me">Remember Me</label>
-                            <input type="checkbox" name="remember" id="remember-box" />
-                        </p>
-                        <button type="submit">Login</button>
-                    </div>
-                </fieldset>
-    </body>
+<body>
+    <!-- <h1 id=header>DigitalCrafts</h1>
+    <ul id="nav-list"></ul>
+        <li class="link">Home</li>
+        <li class="link">About Us</li>
+        <li class="link">Products</li> -->
+        <form>
+            <div>
+                <h1>Spotify</h1>
+            </div>
+            <div>
+                <legend>User Login</legend>
+                <div class="box">
+                    <label for="Username">Email</label>
+                    <!-- type tells the browser what content will be in the input box -->
+                    <input type="email" name="username" class="form-control" id="username-box" placeholder="Username" required/>
+                </div>
+                <div class="box">
+                    <label for="Password">Password</label>
+                    <!-- Pattern uses regular expressions to check the value passed by the user -->
+                    <input type="text" title="letters or numbers length 4-12, no special characters" minlength="4" maxlength="12" class="form-control" name="password" id="password-box" placeholder="Password" required/>
+                </div>
+                <div class="box">
+                    <label for="code">Type in Security Code</label>
+                    <input type="number" name="username" maxlength="4" class="form-control" id="code-box" placeholder="code" required/>
+                </div>    
+                <a href="https://www.spotify.com/us/password-reset/">Forgot Password?</a>
+                <div class="box">
+                    <label for="Remember Me">Remember Me</label>
+                    <input type="checkbox" name="remember" id="remember-box" class="form-control" />
+                </div>          
+                <button type="submit">Login</button>
+                <a href="./register.html">Register Here</a>
+            </div>
+        </form>
+</body>
 </html>
 <script src="../js/dom.js"></script>
