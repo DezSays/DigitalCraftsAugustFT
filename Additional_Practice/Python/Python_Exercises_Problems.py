@@ -296,3 +296,69 @@
 # monkey_trouble(True, False) → False
 
 
+
+
+#  * Exercise 25: Given a string, if the string length is less than 3, repeat the letters that are present three times. If the string length is more than three, return a new string whith the first three letters repeated. See the example below. *
+
+# newStr3('Java') → 'JavJavJav'
+# newStr3('Chocolate') → 'ChoChoCho'
+# newStr3('ab') → 'ababab'
+
+
+
+
+#  * Exercise 26: Given 2 ints, a and b, return True if one if them is 10 or if their sum is 10. *
+
+# makes10(9, 10) → True
+# makes10(9, 9) → False
+# makes10(1, 9) → True
+
+
+
+
+#  * Exercise 27: Given two int values, return their sum. Unless the two values are the same, then return double their sum. *
+
+# sum_double(1, 2) → 3
+# sum_double(3, 2) → 5
+# sum_double(2, 2) → 8
+
+
+
+
+#  * Exercise 28: Given 2 int values, return True if one is negative and one is positive. Except if the parameter "negative" is True, then return True only if both are negative. See example below. *
+
+# pos_neg(1, -1, False) → True
+# pos_neg(-1, 1, False) → True
+# pos_neg(-1, 1, True) → False
+# pos_neg(-4, -5, True) → True
+
+
+
+
+#  * Exercise 29: We have a loud talking parrot. The "hour" parameter is the current hour time in the range 0 to 23. We are in trouble if the parrot is talking and the hour is before 7 or after 20. Return True if we are in trouble.
+
+# parrot_trouble(True, 6) → True
+# parrot_trouble(True, 7) → False
+# parrot_trouble(False, 6) → False
+
+
+
+
+#  * Exercise 30: Given an int n, return True if it is within 10 of 100 or 200. *
+
+# near_hundred(93) → True
+# near_hundred(90) → True
+# near_hundred(89) → False
+
+
+
+
+#  * Exercise 31: Given an int n, return the difference between n and 21, except return double the difference if n is over 21.
+
+
+# diff21(19) → 2
+# diff21(10) → 11
+# diff21(21) → 0
+
+
+

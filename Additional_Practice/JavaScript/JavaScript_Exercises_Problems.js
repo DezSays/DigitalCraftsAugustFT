@@ -34,3 +34,13 @@
 
 
 //* Exercise 10: Reverse a string. *
+
+
+
+//* Exercise 11: Create a function that will merge two arrays and return the result as a new array. *
+
+
+
+//* Exercise 12: Implement the bubble sort algorithm to sort an array of numbers from least to greatest. *
+
+

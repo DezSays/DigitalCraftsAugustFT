@@ -169,3 +169,57 @@
 // console.log(result)                              // Print out your results
 
 
+// * Exercise 11: Solution *
+
+// let arr1 = [1,2,3,4,5];
+// let arr2 = [6,7,8,9,10];
+
+
+// function newArr(arr1, arr2) {
+//     let arr3 = [];
+//     for(num = 0; num <= arr1.length - 1; num++){
+//         let val = arr1[num];
+//         arr3.push(val)
+//     };
+//     for(i = 0; i <= arr2.length - 1; i++){
+//         let nums = arr2[i];
+//         arr3.push(nums)
+//     };
+//     return arr3
+// }
+
+// let result = newArr(arr1,arr2)
+// console.log(result)
+
+
+// * Exercise 12: Solution *
+
+// let nums = [27, 1, -1, 8, 3, -26];
+
+// function bubbleSort(nums)
+// {
+//     let shouldSort = true;
+//     let length = nums.length;
+    
+//     while(shouldSort)
+//     {
+//         shouldSort = false;
+//         length--;
+        
+//         for(let i = 0; i < length; i++)
+//         {
+//             let a = nums[i];
+//             if ( a > nums[i+1] )
+//             {
+//                 nums[i] = nums[i+1];
+//                 nums[i+1] = a;
+//                 shouldSort = true;
+//             }
+//         }
+        
+//     }
+//     return nums
+// }
+
+// let result = bubbleSort(nums);
+// console.log(result);

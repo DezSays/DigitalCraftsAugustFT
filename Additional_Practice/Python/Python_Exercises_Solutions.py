@@ -372,3 +372,124 @@
 #     return False                                              # return false
 
 # print(monkey_trouble(True, True))                             # print it out so we can see it, call our function, pass in parameters
+
+# * --------------Below this line on solutions currently available, explanations coming soon------------------
+
+
+
+# # *Exercise 25 Solution and Explanation*
+
+# def newStr3(str):
+#     if len(str) >= 3:
+#       wordAdd = str[0] + str[1] + str[2]
+#       result = wordAdd*3
+#       return result
+#     elif len(str) == 2:
+#       wordAdd = str[0] + str[1]
+#       result = wordAdd*3
+#       return result
+#     elif len(str) == 1:
+#       result = (str[0]) * 3
+#       return result
+#     else:
+#       return ''
+
+
+# str1 = 'Chocolate'
+# str2 = 'ab'
+
+# print(newStr3(str2))
+
+
+
+
+# # *Exercise 26 Solution and Explanation*
+
+
+# def makes10(a, b):
+#   if (a == 10 or b == 10) or (a + b == 10):
+#     return True
+#   else:
+#     return False
+
+# print(makes10(10,2))
+
+
+
+
+# # *Exercise 27 Solution and Explanation*
+
+
+# def sum_double(a, b):
+#   if a != b:
+#     return (a + b)
+#   else:
+#     result = a + b
+#     return (result + result)
+# print(sum_double(5,5))
+
+
+
+
+# # *Exercise 28 Solution and Explanation*
+
+
+# def pos_neg(a, b, negative):
+#   if ((a < 0 and b > 0) or (a > 0 and b < 0)) and negative == False:
+#     return True
+#   elif (a < 0 and b < 0) and negative == True:
+#     return True
+#   else:
+#     return False
+# print(pos_neg(1,-2,False))
+
+
+
+
+# # *Exercise 29 Solution and Explanation*
+
+
+# def parrot_trouble(talking, hour):
+#   if (hour < 7 or hour > 20) and talking == True:
+#     return True
+#   else:
+#     return False
+# print(parrot_trouble(True, 6))
+
+
+
+
+
+
+# # *Exercise 30 Solution and Explanation*
+
+
+# def near_hundred(n):
+#   if (n > 89 and n < 111) or (n > 189 and n < 211):
+#     return True
+#   else:
+#     return False
+# print(near_hundred(50))
+
+
+
+
+
+
+# # *Exercise 31 Solution and Explanation*
+
+
+# def diff21(n):
+#   if n < 21:
+#     val = 21 - n
+#     return val
+#   else:
+#     val = n - 21
+#     result = val * 2
+#     return result
+
+
+
+
+
+
