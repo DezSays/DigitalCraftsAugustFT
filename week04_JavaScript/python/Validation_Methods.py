@@ -27,11 +27,11 @@ def validator(users: list):
     elif (users[0].get('zipcode')) < '00501' or users[0].get('zipcode') > '99950':
         print('ERROR: Not a valid US zip code')
         return False
-    elif '@' not in (users[0].get('email')):
+    # Checks if one of our accepted email accounts
+    elif ('@gmail.com' or "@hotmail.com" or '@yahoo.com') not in (users[0].get('email')):
         print('ERROR: Not a valid email')
         return False
-    elif ('@gmail.com' or "@hotmail.com" or '@yahoo.com') not in (users[0].get('email')):
-        return False
+    # If all of the above clear, then we will return that the login is valid.
     else:
         return True
 print(f'Valid?: {validator(users)}')

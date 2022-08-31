@@ -1,0 +1,15 @@
+/* #weather {
+    display: flex;
+} */
+
+ #temp {
+    display: flex;
+}
+
+#heatindex {
+    display: flex;
+}
+
+.progress {
+    width: 50%;
+}
