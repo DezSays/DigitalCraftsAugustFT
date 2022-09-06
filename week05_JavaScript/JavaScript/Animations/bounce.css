@@ -1,0 +1,49 @@
+.basketball {
+    width: 125px;
+    height: 125px;
+    position: relative;
+    background-color: #ee6730;
+    border-radius: 50%;
+    animation: roll 4s ease-out 0s 10 alternate-reverse;
+}
+
+.court {
+    border-top: solid black 2px;
+    top: 100%;
+}
+
+@keyframes left-to-right {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 90%;
+    }
+}
+
+@keyframes roll {
+    to {
+        transform: rotate(360deg);
+    }
+
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 90%;
+    }
+    
+}
+
+
+@keyframes bounce {
+    to {
+        top: 0%;
+    }
+    from {
+        top: 80%
+    }
+}
+
