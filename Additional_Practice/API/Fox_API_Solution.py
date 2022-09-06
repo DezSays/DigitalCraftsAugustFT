@@ -1,7 +1,7 @@
 import requests     # Will need to work with API
 import webbrowser   # Will need to open browser windwo
 
-response = requests.get('http://randomfox.ca/floof')
+response = requests.get('http://randomfox.ca/floof') # Get the api you are going to work with
 # print(response.json()) # See what data you are working with
 cuteFox = response.json() # Assign a variable to our response.json so that we can read and manipulate the data
 result = cuteFox['image'] # Assign a variable to what we want to pull out of our API, in this case we want the key from 'image'.
