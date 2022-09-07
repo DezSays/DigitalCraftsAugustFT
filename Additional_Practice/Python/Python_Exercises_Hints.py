@@ -158,3 +158,18 @@
 # Set your initial count variable to 0
 # Increment the count
 
+
+
+# *EXERCISE 23 HINT *
+# Set up our function to take in two parameters, both booleans
+# Use an if statement so that if our first parameter is false or our second parameter is true, it returns true. Else return false.
+
+
+
+# *EXERCISE 24 HINT *
+# Set up our function to take in two parameters, both booleans
+# Use an if statement so that if neither are smiling it returns true.
+# Use another if statement so that if they are both smiling it returns true.
+
+
+

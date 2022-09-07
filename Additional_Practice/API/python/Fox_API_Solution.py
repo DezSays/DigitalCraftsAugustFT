@@ -1,5 +1,5 @@
 import requests     # Will need to work with API
-import webbrowser   # Will need to open browser windwo
+import webbrowser   # Will need to open browser window
 
 response = requests.get('http://randomfox.ca/floof') # Get the api you are going to work with
 # print(response.json()) # See what data you are working with

@@ -373,7 +373,7 @@
 
 # print(monkey_trouble(True, True))                             # print it out so we can see it, call our function, pass in parameters
 
-# * --------------Below this line on solutions currently available, explanations coming soon------------------
+# * --------------Below this line on solutions currently available, explanations and hints coming soon------------------
 
 
 
