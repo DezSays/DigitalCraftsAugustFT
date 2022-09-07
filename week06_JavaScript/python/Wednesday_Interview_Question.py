@@ -23,7 +23,7 @@ def printBoard(board):
 # Gameplay functionality
 def ticTacToe():
     player = 'X'
-    count = 0
+    turn = 0
 
     for XorO in range(10):
         printBoard(gameBoard)
@@ -33,13 +33,13 @@ def ticTacToe():
 
         if gameBoard[move] == ' ':
             gameBoard[move] = player
-            count += 1
+            turn += 1
         else:
             print(f"\nThe place you selected has already been filled. {player}, please select an available placement.\n")
             continue
 
         # Win conditions 
-        if count >= 5:
+        if turn >= 5:
             if gameBoard['7'] == gameBoard['8'] == gameBoard['9'] != ' ': # across the top
                 printBoard(gameBoard)
                 print("\nGame Over.\n")                
@@ -82,7 +82,7 @@ def ticTacToe():
                 break 
 
         # Tie Condition
-        if count == 9:
+        if turn == 9:
             print("\nGame Over.\n")                
             print("\nIt's a Tie!\n")
 
