@@ -11,7 +11,7 @@ for key in gameBoard:
     board_key.append(key)
 
 # The board that the user will see
-def printBoard(board):
+def game(board):
     print('')
     print(board['7'] + '|' + board['8'] + '|' + board['9'])
     print('-----')
@@ -26,7 +26,7 @@ def ticTacToe():
     turn = 0
 
     for XorO in range(10):
-        printBoard(gameBoard)
+        game(gameBoard)
         print(f"\nIt's your turn {player}. Move to which place?\n")
 
         move = input()        
@@ -41,42 +41,42 @@ def ticTacToe():
         # Win conditions 
         if turn >= 5:
             if gameBoard['7'] == gameBoard['8'] == gameBoard['9'] != ' ': # across the top
-                printBoard(gameBoard)
+                game(gameBoard)
                 print("\nGame Over.\n")                
                 print(player + " won!")                
                 break
             elif gameBoard['4'] == gameBoard['5'] == gameBoard['6'] != ' ': # across the middle
-                printBoard(gameBoard)
+                game(gameBoard)
                 print("\nGame Over.\n")                
                 print(player + " won!")
                 break
             elif gameBoard['1'] == gameBoard['2'] == gameBoard['3'] != ' ': # across the bottom
-                printBoard(gameBoard)
+                game(gameBoard)
                 print("\nGame Over.\n")                
                 print(player + " won!")
                 break
             elif gameBoard['1'] == gameBoard['4'] == gameBoard['7'] != ' ': # down the left side
-                printBoard(gameBoard)
+                game(gameBoard)
                 print("\nGame Over.\n")                
                 print(player + " won!")
                 break
             elif gameBoard['2'] == gameBoard['5'] == gameBoard['8'] != ' ': # down the middle
-                printBoard(gameBoard)
+                game(gameBoard)
                 print("\nGame Over.\n")                
                 print(player + " won!")
                 break
             elif gameBoard['3'] == gameBoard['6'] == gameBoard['9'] != ' ': # down the right side
-                printBoard(gameBoard)
+                game(gameBoard)
                 print("\nGame Over.\n")                
                 print(player + " won!")
                 break 
             elif gameBoard['7'] == gameBoard['5'] == gameBoard['3'] != ' ': # diagonal left to right
-                printBoard(gameBoard)
+                game(gameBoard)
                 print("\nGame Over.\n")                
                 print(player + " won!")
                 break
             elif gameBoard['1'] == gameBoard['5'] == gameBoard['9'] != ' ': # diagonal right to left
-                printBoard(gameBoard)
+                game(gameBoard)
                 print("\nGame Over.\n")                
                 print(player + " won!")
                 break 
