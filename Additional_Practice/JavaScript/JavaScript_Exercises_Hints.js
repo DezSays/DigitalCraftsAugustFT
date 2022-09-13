@@ -92,3 +92,18 @@
 // assign one last variable that is equal to your function with your array passed in
 // console.log your last variable
 
+
+// * HINT 11 *
+
+// set up two arrays to add
+// set up a blank array to push new values to
+// In your function, set up two for loops. The first for loop should run through the first array, and the second for loop should run through the second array. 
+
+
+
+// * HINT 12 *
+
+// Set up an array that needs to be sorted.
+// Set up a function to take in one parameter. 
+// Bubble sort checks the value of the current index and compares it to the value of the index beside it. Example: nums[i] > nums[i+1].
+

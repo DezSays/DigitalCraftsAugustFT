@@ -166,60 +166,60 @@
 // }
 
 // let result = reversed(str);                    // Call the function and pass in your list, and store this in the variable result
-// console.log(result)                              // Print out your results
+// console.log(result)                            // Print out your results
 
 
 // * Exercise 11: Solution *
 
-// let arr1 = [1,2,3,4,5];
-// let arr2 = [6,7,8,9,10];
+// let arr1 = [1,2,3,4,5];                      //set up our first array
+// let arr2 = [6,7,8,9,10];                     //set up our second array
 
 
-// function newArr(arr1, arr2) {
-//     let arr3 = [];
-//     for(num = 0; num <= arr1.length - 1; num++){
-//         let val = arr1[num];
-//         arr3.push(val)
+// function newArr(arr1, arr2) {                //set up a function to take in two parameters, both arrays
+//     let arr3 = [];                           //set up array number 3 to an empty array so that we can push our new values to it
+//     for(num = 0; num <= arr1.length - 1; num++){     //getting the values from the first array
+//         let val = arr1[num];                         //each value in the first array is assigned to the variable val
+//         arr3.push(val)                               //add the value to our third array
 //     };
-//     for(i = 0; i <= arr2.length - 1; i++){
-//         let nums = arr2[i];
-//         arr3.push(nums)
+//     for(i = 0; i <= arr2.length - 1; i++){           //getting the values from the second array
+//         let nums = arr2[i];                          //each value in the second array is assigned to the variable nums
+//         arr3.push(nums)                              //add the value to our third array
 //     };
-//     return arr3
+//     return arr3                                      //now that everything has been put in the new array, return it
 // }
 
-// let result = newArr(arr1,arr2)
-// console.log(result)
+// let result = newArr(arr1,arr2)                   //assign variable result to equal our function results
+// console.log(result)                              //print out the results
 
 
 // * Exercise 12: Solution *
 
-// let nums = [27, 1, -1, 8, 3, -26];
+// let nums = [27, 1, -1, 8, 3, -26];               //set up an array that needs to be sorted
 
-// function bubbleSort(nums)
+// function bubbleSort(nums)                        //set up our function to take in one parameter, an array
 // {
-//     let shouldSort = true;
-//     let length = nums.length;
+//     let shouldSort = true;                       //assign a variable to true
+//     let length = nums.length;                    //just to make writing the code below shorter, assigning the length of the array to the variable length
     
-//     while(shouldSort)
+//     while(shouldSort)                            //while true,
 //     {
-//         shouldSort = false;
-//         length--;
+//         shouldSort = false;                      //change to false
+//         length--;                                //decrement the length each iteration 
         
-//         for(let i = 0; i < length; i++)
+//         for(let i = 0; i < length; i++)          //set up for loop 
 //         {
-//             let a = nums[i];
-//             if ( a > nums[i+1] )
+//             let a = nums[i];                     //assign a variable equal to the number in the position of the arrays[current index], incrementing each iteration
+//             if ( a > nums[i+1] )                 //if the value at the current index is less than the value at the next index
 //             {
-//                 nums[i] = nums[i+1];
-//                 nums[i+1] = a;
-//                 shouldSort = true;
+//                 nums[i] = nums[i+1];             //then the largest value is placed on the right, sorting the array from smallest to greatest
+//                 nums[i+1] = a;                   //reassign the variable to the next index
+//                 shouldSort = true;               //change back to true so that the loop can run until everything is sorted properly
 //             }
 //         }
         
 //     }
-//     return nums
+//     return nums                                  // return the sorted array
 // }
 
-// let result = bubbleSort(nums);
-// console.log(result);
+// let result = bubbleSort(nums);                   //store the results of the function to a variable
+// console.log(result);                             //print out the results

@@ -370,14 +370,6 @@
 # build_house(3,2,9) -> False
 # build_house(3,2,10) -> True
 
-# Solution:
-# def build_house(small, big, result):
-#     if result % 5 <= small and result-(big*5) <= small:
-#         return True
-#     else:
-#         return False 
-    
-# print(build_house(3,2,10))
 
 
 # * Exercise 33: For this problem, round an integer up to the next multiple of 10 if the rightmost digit is 5 or more (so 15 would round up to 20). Alternatively, round down to the previous multiple of 10 if the rightmost digit is less than 5, so 14 rounds down to 10. Given three integers, (x,y,z), return the sum of their rounded values. * HINT * This problem is easier to solve if you have two functions: one function to round your numbers, one to produce your sum. *
@@ -386,19 +378,3 @@
 # numSum(16,17,18) -> 60
 # numSum(12,13,14) -> 30
 # numSum(6,4,4) -> 10
-
-# Solution
-
-# def roundMe(num):
-#     if num % 10 < 5:
-#         total = num - (num % 10)
-#         return total 
-#     else:
-#         total = num + (10 - num % 10)
-#         return total 
-    
-# def numSum(a,b,c):
-#     result = roundMe(a) + roundMe(b) + roundMe(c)
-#     return result 
-
-# print(numSum(12,13,14))

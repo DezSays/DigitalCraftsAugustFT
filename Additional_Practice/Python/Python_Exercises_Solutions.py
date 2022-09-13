@@ -373,32 +373,32 @@
 
 # print(monkey_trouble(True, True))                             # print it out so we can see it, call our function, pass in parameters
 
-# * --------------Below this line on solutions currently available, explanations and hints coming soon------------------
 
 
 
 # # *Exercise 25 Solution and Explanation*
 
-# def newStr3(str):
-#     if len(str) >= 3:
-#       wordAdd = str[0] + str[1] + str[2]
-#       result = wordAdd*3
-#       return result
-#     elif len(str) == 2:
-#       wordAdd = str[0] + str[1]
-#       result = wordAdd*3
-#       return result
-#     elif len(str) == 1:
-#       result = (str[0]) * 3
-#       return result
-#     else:
-#       return ''
+# def newStr3(str):                                     # set up a function to take in one parameter, a string
+#     if len(str) >= 3:                                 # if the string has a length of 3 or more
+#       wordAdd = str[0] + str[1] + str[2]              # assign a variable that will hold the values of the first three indices in the string
+#       result = wordAdd*3                              # assign a variable to equal three of the variable above
+#       return result                                   # return the variable above 
+#     elif len(str) == 2:                               # if the string has a length of exactly 2
+#       wordAdd = str[0] + str[1]                       # assign a variable that will hold the values of the first two indices in the string
+#       result = wordAdd*3                              # assign a variable to equal three of the variable above
+#       return result                                   # return the variable above 
+#     elif len(str) == 1:                               # if the string has a length of exactly 1
+#       wordAdd = str[0]                                # assign a variable that will hold the value of the first index in the string
+#       result = wordAdd*3                              # assign a variable to equal three of the variable above
+#       return result                                   # return the variable above 
+#     else:                                             # if none of the above are true
+#       return ''                                       # return an empty string
 
 
-# str1 = 'Chocolate'
-# str2 = 'ab'
+# str1 = 'Chocolate'                                    # test string
+# str2 = 'ab'                                           # test string
 
-# print(newStr3(str2))
+# print(newStr3(str2))                                  # print out the results of your function
 
 
 
@@ -406,13 +406,13 @@
 # # *Exercise 26 Solution and Explanation*
 
 
-# def makes10(a, b):
-#   if (a == 10 or b == 10) or (a + b == 10):
-#     return True
-#   else:
-#     return False
+# def makes10(a, b):                                # set up a function to take in two integers as parameters
+#   if (a == 10 or b == 10) or (a + b == 10):       # if the first or second value is ten, or if added together they make ten
+#     return True                                   # return true
+#   else:                                           # otherwise 
+#     return False                                  # return false
 
-# print(makes10(10,2))
+# print(makes10(10,2))                              # print out your function
 
 
 
@@ -420,13 +420,13 @@
 # # *Exercise 27 Solution and Explanation*
 
 
-# def sum_double(a, b):
-#   if a != b:
-#     return (a + b)
-#   else:
-#     result = a + b
-#     return (result + result)
-# print(sum_double(5,5))
+# def sum_double(a, b):                 # set up a function to take in two integers as parameters
+#   if a != b:                          # if the numbers are different
+#     return (a + b)                    # return their sum
+#   else:                               # if the numbers are the same
+#     result = a + b                    # set a variable equal to their sum
+#     return (result + result)          # return double the sum
+# print(sum_double(5,5))                # print out your function
 
 
 
@@ -434,14 +434,14 @@
 # # *Exercise 28 Solution and Explanation*
 
 
-# def pos_neg(a, b, negative):
-#   if ((a < 0 and b > 0) or (a > 0 and b < 0)) and negative == False:
-#     return True
-#   elif (a < 0 and b < 0) and negative == True:
-#     return True
-#   else:
-#     return False
-# print(pos_neg(1,-2,False))
+# def pos_neg(a, b, negative):                                              # set up a function to take in two integers and a boolean
+#   if ((a < 0 and b > 0) or (a > 0 and b < 0)) and negative == False:      # if one of the parameters is negative while the other is postive and the final parameter is false
+#     return True                                                           # return true
+#   elif (a < 0 and b < 0) and negative == True:                            # if both parameters are negative and the final parameter is true
+#     return True                                                           # return true
+#   else:                                                                   # otherwise
+#     return False                                                          # return false
+# print(pos_neg(1,-2,False))                                                # print out the function
 
 
 
@@ -449,14 +449,12 @@
 # # *Exercise 29 Solution and Explanation*
 
 
-# def parrot_trouble(talking, hour):
-#   if (hour < 7 or hour > 20) and talking == True:
-#     return True
-#   else:
-#     return False
-# print(parrot_trouble(True, 6))
-
-
+# def parrot_trouble(talking, hour):                    # set up function to take in one integer and one boolean as parameters
+#   if (hour < 7 or hour > 20) and talking == True:     # if the hour is less than 7 or greater than 20, and the last parameter is true                       
+#     return True                                       # return true
+#   else:                                               # otherwise
+#     return False                                      # return false
+# print(parrot_trouble(True, 6))                        # print out function
 
 
 
@@ -464,14 +462,12 @@
 # # *Exercise 30 Solution and Explanation*
 
 
-# def near_hundred(n):
-#   if (n > 89 and n < 111) or (n > 189 and n < 211):
-#     return True
-#   else:
-#     return False
-# print(near_hundred(50))
-
-
+# def near_hundred(n):                                      # set up a function to take in one integer as a parameter
+#   if (n > 89 and n < 111) or (n > 189 and n < 211):       # if our parameter is greater than 89 and less than 111, or our parameter is greater than 189 and less than 211
+#     return True                                           # return true
+#   else:                                                   # otherwise
+#     return False                                          # return false
+# print(near_hundred(50))                                   # print out your function
 
 
 
@@ -479,17 +475,49 @@
 # # *Exercise 31 Solution and Explanation*
 
 
-# def diff21(n):
-#   if n < 21:
-#     val = 21 - n
-#     return val
-#   else:
-#     val = n - 21
-#     result = val * 2
-#     return result
+# def diff21(n):            # set up a function to take in one integer as a parameter
+#   if n < 21:              # if the parameter is less than 21
+#     val = 21 - n          # assign a variable to hold the value of 21 minus the parameter
+#     return val            # return the variable above
+#   else:                   # otherwise
+#     val = n - 21          # assign a variable to hold the value of the parameter minus 21
+#     result = val * 2      # multiply the above variable by 2
+#     return result         # return the value of the variable above
+# print(diff21(5))          # print out the function
 
 
 
+
+# # *Exercise 32 Solution and Explanation*
+
+
+# def build_house(small, big, result):                          # set up a function to take in three integers as parameters
+#     if result % 5 <= small and result-(big*5) <= small:       # if the value in the final parameter can be divided by five with a remainder of 0 and it is the same size or smaller than the first parameter, and the final parameter minus (second parameter multiplied by 5) is equal to or smaller than the first parameter
+#         return True                                           # return true
+#     else:                                                     # otherwise
+#         return False                                          # return false
+    
+# print(build_house(3,2,10))                                    # print out the function
+
+
+
+
+# # *Exercise 33 Solution and Explanation*
+
+
+# def roundMe(num):                                         # set up function to take in one integer as a parameter
+#     if num % 10 < 5:                                      # if the parameter divided by 10 has a remainder that is less than 5
+#         total = num - (num % 10)                          # assign a variable to hold the value of the parameter minus (parameter modulos 10)
+#         return total                                      # return the variable directly above
+#     else:                                                 # otherwise
+#         total = num + (10 - num % 10)                     # assign a variable to hold the value of the parameter plus (10 minus parameter modulos 10)
+#         return total                                      # return the variable above
+    
+# def numSum(a,b,c):                                        # set up your second function to take in three integers as parameters
+#     result = roundMe(a) + roundMe(b) + roundMe(c)         # assign a variable to the sum of the rounded parameters. We use the first function to help us here. 
+#     return result                                         # return the variable above
+
+# print(numSum(12,13,14))                                   # print out the function
 
 
 

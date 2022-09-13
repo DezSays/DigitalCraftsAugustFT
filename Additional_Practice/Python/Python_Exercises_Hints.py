@@ -173,3 +173,59 @@
 
 
 
+# *EXERCISE 25 HINT *
+# Set up a function to take in one string as a parameter
+# Use else/if statements for if a string has 3 or more characters, 2 characters, 1 character, or none of the above
+# Use concatenation of the string indices
+
+
+
+# *EXERCISE 26 HINT *
+# Set up a function to take in two integers as parameters
+# Use an if else statement to check if the first or second value is ten or if the first and second value added together equal 10 
+
+
+
+# *EXERCISE 27 HINT *
+# Set up a function to take in two integers as parameters
+# Use an if else statement to check if the first and second value are different. If they are, return their sum. If they are the same, return double the sum.
+
+
+
+# *EXERCISE 28 HINT *
+# set up a function to take in two integers and one boolean as parameters
+# use an else/if statement to check conditions
+
+
+
+# *EXERCISE 29 HINT *
+# set up a function to take in two parameters, an integer and a boolean
+# use an if/else statement to check your conditions
+
+
+
+# *EXERCISE 30 HINT *
+# set up a function to take in one integer as a parameter
+# use an if else statement to check conditions
+
+
+
+# *EXERCISE 31 HINT *
+# set up a function to take in one integer as a parameter
+# use an if/else statement to check conditions
+
+
+
+# *EXERCISE 32 HINT *
+# set up a function to take in three integers as parameters 
+# if the value in the final parameter can be divided by five with a remainder of 0 and it is the same size or smaller than the first parameter, and the final parameter minus (second parameter multiplied by 5) is equal to or smaller than the first parameter, return true. Else return false. 
+
+
+
+# *EXERCISE 33 HINT *
+# set up two functions
+# in the first function, take in one integer as a parameter
+# if the parameter in the first function divided by 10 has a remainder that is less than 5 then assign a variable to hold the value of the parameter minus (parameter modulos 10)
+# else assign a variable to hold the value of the parameter plus (10 minus parameter modulos 10)
+# in the second function, take in three integers as parameters
+# use the first function in your second function, to round your variables and get their sum. Ex: result = roundMe(a) + roundMe(b) + roundMe(c)

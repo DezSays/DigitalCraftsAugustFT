@@ -8,10 +8,15 @@ currentWeather = {
 
 const getWeather = () => {
     // Query parameters by a ?
+    // While this API call works, it is hardcoded to only return one piece of information, lets make this dynamic using string interpolation
+
     fetch('http://api.openweathermap.org/data/2.5/weather?q=Atlanta&appid=b68f35e8bcd7df3748b5e67d1b67462d&units=imperial')
     // Response is stored in the response variable
     .then(response => {
         // response.json() converts the response to json, which we can easily manipulate
+
+        // We need to account for the chance that our API request is incorrect
+        Error.toString(`API call failed with a status code of ${response.status}`)
         return response.json();
     })
     .then(data => {
