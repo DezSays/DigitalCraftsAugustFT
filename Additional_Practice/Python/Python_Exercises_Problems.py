@@ -428,6 +428,12 @@
 
 # * Exercise 38: Create a list of numbers, and a single factor (also a number), create a new list consisting of each of the numbers in the first list multiplied by the factor. Print this list.
 
+# For example:
+# numList = [1, 2, 3, 4, 5]
+
+# Expected output:
+# [3, 6, 9, 12, 15]
+
 
 
 # * Exercise 39: Given a string, print the string reversed using a for loop.
@@ -445,7 +451,6 @@
  
 
 
-
 # * Exercise 41: Matrix Addition
 
 # For example:
@@ -454,6 +459,8 @@
 
 # Expected output:
 # [6, 8, 10, 12]
+
+
 
 # * Exercise 42: Multiple Matrix Addition. Add multiple matrices and combine them into one list. 
 
