@@ -520,4 +520,163 @@
 # print(numSum(12,13,14))                                   # print out the function
 
 
+# *--------------------------- Solutions available below. Explanation and hints coming soon. -------------------------------------------
+
+# # *Exercise 34 Solution and Explanation*
+
+# def fibonacci(num):
+#     if num == 0:
+#         return 0
+#     elif num == 1:
+#         return 1
+#     elif num < 0:
+#         print('Please enter a positive value')
+#     else:
+#         result = fibonacci(num-1)+fibonacci(num-2)
+#         return result 
+
+
+# def finalSequence():
+#     try:
+#         value = int(input('Please enter a positive number: '))
+#         fibonacci(value)
+#         for numbers in range(value):
+#             print(fibonacci(numbers))
+#     except ValueError:
+#         print("Invalid entry.")
+
+# finalSequence()
+
+
+
+
+# # *Exercise 35 Solution and Explanation*
+
+# import unittest
+# import math 
+
+# pi = math.pi
+
+# def area_circle(radius):
+#     if type(radius) not in [int,float]:
+#         raise TypeError("Radius must be a positive, whole number.")
+#     elif radius < 0:
+#         raise ValueError("The radius cannot be negative.")
+#     return pi*(radius**2)
+
+# print(area_circle(10))
+
+# class TestAreaCircle(unittest.TestCase):
+#     def test_area(self):
+#         # Test the areas where the radius is >= 0
+#         self.assertAlmostEqual(area_circle(1), pi)
+#         self.assertAlmostEqual(area_circle(0), 0)
+#         self.assertAlmostEqual(area_circle(2.1), pi * 2.1**2)
+#     def test_values(self):
+#         # Make sure that the value errors are raised when necessary
+#         self.assertRaises(ValueError,area_circle,-2)
+#     def test_types(self):
+#         # Make sure type errors are raised when necessary
+#         self.assertRaises(TypeError, area_circle, 3+5j) 
+#         self.assertRaises(TypeError, area_circle, True)
+#         self.assertRaises(TypeError, area_circle, "radius")
+
+
+
+
+
+# # *Exercise 36 Solution and Explanation*
+
+
+# def createSequence():
+    
+#     try:
+#         MIN = int(input('What number would you like to start the sequence? '))
+#         MAX = int(input('What number would you like to end the sequence? This number must be larger than the number previously entered. '))
+#         while MIN <= MAX:
+#             print(MIN)
+#             MIN += 1
+#     except ValueError:
+#         print("Invalid entry.")
+
+# createSequence()
+
+
+
+
+
+
+# # *Exercise 37 Solution and Explanation*
+
+# numList = [-15, 1, 5, 9, 8, -78, 86, -4, -1, 0]
+# posnum = [num for num in numList if num > 0]
+
+# print(posnum)
+
+
+
+
+# # *Exercise 38 Solution and Explanation*
+
+# numList = [1, 2, 3, 4, 5]
+# result = [num * 3 for num in numList]
+
+# print(result)
+
+
+
+
+# # *Exercise 39 Solution and Explanation*
+
+# txt = "This is the final small problem for the sequence homework "
+# reverse = ""
+# for char in txt:
+#     reverse = char + reverse
+# print(reverse)
+
+
+
+
+
+# # *Exercise 40 Solution and Explanation*
+# Multiply Vectors
+
+# a_vector = [2, 4, 5] 
+# b_vector = [2, 3, 6]
+# c_vector = []
+
+# for i in range(0, len(b_vector)):
+#     c_vector.append(a_vector[i] * b_vector[i])
+# print(c_vector)
+
+
+
+
+# # *Exercise 41 Solution and Explanation*
+
+# a = [[1, 2], [3, 4]]
+# b = [[5, 6], [7, 8]]
+# c = []
+# for i in range(0, 2):
+#     for x in range(0, 2):
+#         c.append(a[i][x] + b[i][x])
+# print(c)
+
+
+
+
+# # *Exercise 42 Solution and Explanation*
+
+
+# a = [[1, 2, 3], [9, 10, 11], [16, 17, 18]]
+# b = [[5, 6, 7], [13, 14, 15], [19, 20, 21]]
+# c = []
+# for i in range(0, len(a)):
+#     for x in range(0, len(b)):
+#         c.append(a[i][x] + b[i][x])
+        
+# print(c)
+
+
+
 

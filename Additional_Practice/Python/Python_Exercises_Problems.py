@@ -378,3 +378,88 @@
 # numSum(16,17,18) -> 60
 # numSum(12,13,14) -> 30
 # numSum(6,4,4) -> 10
+
+
+
+# * Exercise 34: Write a function that asks the user to enter an integer and returns up to that number the fibonacci sequence. If the user enters unwanted characters (letters, symbols, etc.), return Invalid Entry. *
+
+# Example:
+# User input: 5
+# Expected output:
+# 0
+# 1
+# 1
+# 2
+# 3
+
+
+
+# * Exercise 35: You ask one of your developers to write a code that will give you the area of a circle. The code the developer writes for you is listed below. Write unit tests to test the following criteria:
+# * Test area when radius is >= 0
+# * Test that value errors are raised when necessary
+# * Test that type errors are raised when necessary
+# * Once you have completed the above steps, edit the code below to correct any errors that might occur. 
+
+# import math 
+# pi = math.pi
+
+# def area_circle(radius):
+#     return pi*(radius**2)
+
+# print(area_circle(10))
+
+
+
+# * Exercise 36: Write a function that asks for the user to input two numbers, the first number is where the sequence will begin and the second number is where the sequence will end. The sequence must be in ascending order. 
+
+# For example: 
+# If the user give you the numbers 1, and 5, the expected output will be:
+# 1
+# 2
+# 3
+# 4
+# 5 
+
+
+
+# * Exercise 37: Create a list of numbers, create a new list which contains every number in the given list which is positive.
+
+
+
+# * Exercise 38: Create a list of numbers, and a single factor (also a number), create a new list consisting of each of the numbers in the first list multiplied by the factor. Print this list.
+
+
+
+# * Exercise 39: Given a string, print the string reversed using a for loop.
+
+
+
+# * Exercise 40: # Multiply Vectors
+
+# For example:
+# a_vector = [2, 4, 5] 
+# b_vector = [2, 3, 6]
+
+# Expected output:
+# [4, 12, 30]
+ 
+
+
+
+# * Exercise 41: Matrix Addition
+
+# For example:
+# a = [[1, 2], [3, 4]]
+# b = [[5, 6], [7, 8]]
+
+# Expected output:
+# [6, 8, 10, 12]
+
+# * Exercise 42: Multiple Matrix Addition. Add multiple matrices and combine them into one list. 
+
+# For example:
+# a = [[1, 2, 3], [9, 10, 11], [16, 17, 18]]
+# b = [[5, 6, 7], [13, 14, 15], [19, 20, 21]]
+
+# Expected output:
+# [6, 8, 10, 22, 24, 26, 35, 37, 39]
