@@ -2,21 +2,24 @@
 // Express is just the server related material. If you type a . after app, only server methods will pop up because only server methods are in the express library.
 // Node is what we are using to run the code, it doesn't have anything to do with the server itself.
 // http://localhost:127.0.0.1
+// Prompt: using the example given for PUT as well as your knowledge of API methods, complete the remaining 3 endpoints, modifying the list accordingly
 const express = require('express');
 const app = express()
 const PORT = 3333
 
 let pokedex = [{"name":"pikachu", 'hp': 50}, {"name":"bulbasaur", 'hp': 40}, {"name":"charmander", 'hp': 60}]
 
-app.get('/', function (req, res) {
-    res.send('You are at the GET endpoint.')
+app.get('/pokemon/:name', function (req, res) {
+    let name = req.params.name
+    res.send(`Pokemon is named ${name}`)
 })
 
 //A post method adds a resource to the database
 
-app.post('/pokemon', (req,res) => {
-    
-    res.send("You created a pokemon.")
+app.post('/pokemon/:name/:hp', (req,res) => {
+    let name = req.params.name
+    let hp = req.params.hp
+    res.send(`You created the pokemon ${name} with ${hp} hp.`)
 })
 
 // Modifies a resource that already exists by replacing the entire contents
@@ -35,8 +38,9 @@ app.put('/pokemon/:name', (req,res) => {
 })
 
 //Deletes the resource from the database. Note, this CANNOT BE UNDONE!
-app.delete('/pokemon', (req,res) => {
-    res.send('Deleted pokemon.')
+app.delete('/pokemon/:name', (req,res) => {
+    let name = req.params.name
+    res.send(`Deleted pokemon ${name}.`)
 })
 
 app.listen(PORT)
