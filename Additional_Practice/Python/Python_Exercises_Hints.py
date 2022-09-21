@@ -229,3 +229,25 @@
 # else assign a variable to hold the value of the parameter plus (10 minus parameter modulos 10)
 # in the second function, take in three integers as parameters
 # use the first function in your second function, to round your variables and get their sum. Ex: result = roundMe(a) + roundMe(b) + roundMe(c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# *EXERCISE 43 HINT *
+# Use modulos to see if the integer % 10 <= 2 or if the integer % 10 >= 8

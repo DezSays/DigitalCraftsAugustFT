@@ -470,3 +470,12 @@
 
 # Expected output:
 # [6, 8, 10, 22, 24, 26, 35, 37, 39]
+
+
+
+# * Exercise 43: Given a non-negative number "num", return True if num is within 2 of a multiple of 10. 
+
+# For example:
+# near_ten(12) → True
+# near_ten(17) → False
+# near_ten(19) → True

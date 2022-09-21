@@ -679,4 +679,14 @@
 
 
 
+# *Exercise 43 Solution and Explanation*
 
+# def near_ten(num):                      # set up function to take in one integer as a parameter
+#   if num >= 0:                          # if the number is positive
+#     if num % 10 <= 2 or num % 10 >= 8:  # if the number divided by 10 has a remainder of 2 or less, or a remainder of 8 or more
+#       return True                       # return True
+#     else:                               # otherwise
+#       return False                      # return false
+#   else:                                 # if the number is not positive
+#     return False                        # return false
+# print(near_ten(52))                     # return the result of your function
