@@ -1,0 +1,8 @@
+{"level":"error","message":"User did not provide an hp value within an acceptable","service":"pokedex-service"}
+{"level":"error","message":"User tried to set hp to -23 which is outside the acceptable range","service":"pokedex-service"}
+{"level":"error","message":"User tried to set hp to -45 which is outside the acceptable range","service":"pokedex-service"}
+{"level":"error","message":"User tried to set hp to 8904523 which is outside the acceptable range","service":"pokedex-service"}
+{"level":"error","message":"User tried to set hp to 890 which is outside the acceptable range","service":"pokedex-service"}
+{"level":"error","message":"User tried to set hp to 1000 which is outside the acceptable range","service":"pokedex-service"}
+{"level":"error","message":"User tried to set hp to 12340 which is outside the acceptable range","service":"pokedex-service","time":"2022-09-21T18:48:21.440Z"}
+{"level":"error","message":"User tried to set hp to 1235643 which is outside the acceptable range","service":"pokedex-service","time":"2022-09-21T18:49:22.843Z"}

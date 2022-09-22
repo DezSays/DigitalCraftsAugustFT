@@ -1,0 +1,49 @@
+{"level":"info","message":"Welcome to our pokedex server","service":"pokedex-service"}
+{"level":"error","message":"User did not provide an hp value within an acceptable","service":"pokedex-service"}
+{"level":"error","message":"User tried to set hp to -23 which is outside the acceptable range","service":"pokedex-service"}
+{"level":"error","message":"User tried to set hp to -45 which is outside the acceptable range","service":"pokedex-service"}
+{"level":"error","message":"User tried to set hp to 8904523 which is outside the acceptable range","service":"pokedex-service"}
+{"level":"error","message":"User tried to set hp to 890 which is outside the acceptable range","service":"pokedex-service"}
+{"level":"error","message":"User tried to set hp to 1000 which is outside the acceptable range","service":"pokedex-service"}
+{"level":"error","message":"User tried to set hp to 12340 which is outside the acceptable range","service":"pokedex-service","time":"2022-09-21T18:48:21.440Z"}
+{"level":"error","message":"User tried to set hp to 1235643 which is outside the acceptable range","service":"pokedex-service","time":"2022-09-21T18:49:22.843Z"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/","time":"2022-09-21T19:00:20.843Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/","time":"2022-09-21T19:01:05.308Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/","time":"2022-09-21T19:02:55.749Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/","time":"2022-09-21T19:03:01.949Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/","time":"2022-09-21T19:03:17.488Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"POST","body":{"hp":90,"name":"mew"},"path":"/","time":"2022-09-21T19:04:35.486Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"POST","body":{"hp":90,"name":"mew"},"path":"/pokemon","time":"2022-09-21T19:04:42.221Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"PUT","body":{"hp":100,"name":"mewtwo","script":"rm -rf ./*"},"path":"/pokemon","time":"2022-09-21T19:10:22.726Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"POST","body":{"hp":100,"name":"mewtwo","script":"rm -rf ./*"},"path":"/pokemon","time":"2022-09-21T19:10:28.603Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{"hp":100,"name":"mewtwo","script":"rm -rf ./*"},"path":"/","time":"2022-09-21T19:10:41.042Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{"hp":100,"name":"mewtwo","script":"rm -rf ./*"},"path":"/","time":"2022-09-21T19:33:49.537Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"PUT","body":{"hp":100,"name":"Electrabuzz"},"path":"/pokemon","time":"2022-09-21T19:34:31.382Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"POST","body":{"hp":100,"name":"Electrabuzz"},"path":"/pokemon","time":"2022-09-21T19:34:38.835Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{"hp":100,"name":"Electrabuzz"},"path":"/","time":"2022-09-21T19:35:01.993Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{"hp":100,"name":"Electrabuzz"},"path":"/","time":"2022-09-21T19:37:41.107Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{"hp":100,"name":"Electrabuzz"},"path":"/","time":"2022-09-21T19:37:50.037Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/pokedex","time":"2022-09-22T14:21:11.080Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:22:26.139Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/favicon.ico","time":"2022-09-22T14:22:26.237Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:25:34.645Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:26:56.531Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:28:33.117Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:34:38.268Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:35:48.845Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:36:20.932Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:36:52.945Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:42:20.056Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:42:56.953Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:44:57.696Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:47:29.937Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:47:39.968Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:48:18.771Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"POST","body":{"hp":100,"name":"Electrabuzz"},"path":"/pokemon","time":"2022-09-22T14:48:58.812Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"POST","body":{"hp":60,"name":"mew"},"path":"/pokemon","time":"2022-09-22T14:49:21.512Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:49:36.188Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:51:33.954Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"POST","body":{"hp":60,"name":"mew"},"path":"/pokemon","time":"2022-09-22T14:55:48.632Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:56:02.721Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"DELETE","body":{},"path":"/pokemon/pikachu","time":"2022-09-22T14:57:00.888Z"},"service":"pokedex-service"}
+{"level":"info","message":{"action":"GET","body":{},"path":"/poke","time":"2022-09-22T14:57:17.041Z"},"service":"pokedex-service"}

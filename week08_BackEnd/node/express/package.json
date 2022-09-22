@@ -4,13 +4,15 @@
   "description": "Basic express server",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node server.js",
-    "createServer" : "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "Dezarea Bryan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.20",
+    "winston": "^3.8.2"
   }
 }

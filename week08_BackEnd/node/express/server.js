@@ -1,4 +1,8 @@
-// Prompt: using the example given for PUT as well as your knowledge of API methods, complete the remaining 3 endpoints, modifying the list accordingly
+//const winston = require('winston')
+const moment = require('moment')
+const logger = require('./logger')
+let pokedex = require('./database')
+const ejs = require('ejs')
 
 
 // Express allows us to create a server that can host an API. We are hosting the API
@@ -7,18 +11,29 @@ const express = require('express')
 const app = express()
 // By default express server cannot read request body in json so we need to add this function to enable that feature  
 app.use(express.json())
+app.set('view engine', 'ejs')
 
-let pokedex = [{"name": 'pikachu', 'hp': 50}, {"name": 'bulbasaur', 'hp': 40}, {"name": 'charmander', 'hp': 50}]
 
 
-// An
+app.all('*', (req, res, next) => {
+    logger.info({
+        action: req.method,
+        path: req.path,
+        body: req.body,
+        time: new Date()
+    })
+    next()
+})
+
+// *GET REQUESTS SHOULD NEVER HAVE A BODY *
+// GET methods should always take parameters as a query (ie. /pokemon/?name=pikachu)
+
 // Get all pokemon from the pokdex
 app.get('/', function (request, response) {
   response.send(pokedex)
 })
 
-
-// GET should always take parameters as a query (ie. /pokemon/?pikachu)
+// Get a single pokemon from the pokedex
 app.get('/pokemon', function (request, response) {
     let pokemon = request.query.name
     for(let i = 0; i < pokedex.length; i++) {
@@ -30,8 +45,12 @@ app.get('/pokemon', function (request, response) {
     response.send(`${pokemon} does not exist.`)
   })
 
-// Fiona
-// Adding a resource to the database
+// Sending a template to the browser
+  app.get('/poke', (req, res) => {
+    res.render("pokedex", { pokedex: pokedex} )
+  })
+
+// Adding a pokemon to the database
 // Path parameters are added to the end of the uri and is taken by the API and used to specify which resource in the db we are refering to. 
 //*NOTE* NOT ALL ENDPOINTS USE PATH PARAMETERS
 
@@ -48,6 +67,8 @@ app.post('/pokemon', (req,res) => {
 
 // In a PUT, place fields to be updated in the request body
 app.put('/pokemon/:name', (request, response)=> {
+    let pokemon = request.params.name;
+
     // Case 1: Check if the HP value is positive and within a reasonable range
     if (request.body.hp <= 10 || request.body.hp > 250) {
         response.statusCode = 400
@@ -60,7 +81,6 @@ app.put('/pokemon/:name', (request, response)=> {
         response.send(`HP value is not valid`)
     }
 
-    let pokemon = request.params.name;
     let updated = {}
     for(let i = 0; i < pokedex.length; i++) {
         // Check if the name of the pokemon in the request is in the db
@@ -74,7 +94,6 @@ app.put('/pokemon/:name', (request, response)=> {
     response.send(updated);
 })
 
-// Wes
 // Deletes the resource from the database
 // Pass parameters to DELETE as a path parameter
 app.delete('/pokemon/:name', (request, response) => {
