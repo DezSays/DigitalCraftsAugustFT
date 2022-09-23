@@ -524,19 +524,19 @@
 
 # # *Exercise 34 Solution and Explanation*
 
-# def fibonacci(num):                               # set up function to take in one integer as a parameter
-#     if num == 0:                                  # if that integer is a 0
-#         return 0                                  # return 0
-#     elif num == 1:                                # if the integer is a 1
-#         return 1                                  # return a 1
-#     elif num < 0:
-#         print('Please enter a positive value')
-#     else:
-#         result = fibonacci(num-1)+fibonacci(num-2)
-#         return result 
+# def fibonacci(num):                                   # set up function to take in one integer as a parameter
+#     if num == 0:                                      # if that integer is a 0
+#         return 0                                      # return 0
+#     elif num == 1:                                    # if the integer is a 1
+#         return 1                                      # return a 1
+#     elif num < 0:                                     # if the number is negative
+#         print('Please enter a positive value')        # return error message 
+#     else:                                             # otherwise
+#         result = fibonacci(num-1)+fibonacci(num-2)    # assign the variable result to hold the sum
+#         return result                                 # return the variable above
 
 
-# def finalSequence():
+# def finalSequence():                                  # set up your second function
 #     try:
 #         value = int(input('Please enter a positive number: '))
 #         fibonacci(value)
