@@ -524,11 +524,11 @@
 
 # # *Exercise 34 Solution and Explanation*
 
-# def fibonacci(num):
-#     if num == 0:
-#         return 0
-#     elif num == 1:
-#         return 1
+# def fibonacci(num):                               # set up function to take in one integer as a parameter
+#     if num == 0:                                  # if that integer is a 0
+#         return 0                                  # return 0
+#     elif num == 1:                                # if the integer is a 1
+#         return 1                                  # return a 1
 #     elif num < 0:
 #         print('Please enter a positive value')
 #     else:

@@ -232,7 +232,8 @@
 
 
 
-
+# *EXERCISE 34 HINT *
+# set up two functions
 
 
 
