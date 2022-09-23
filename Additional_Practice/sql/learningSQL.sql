@@ -1,4 +1,4 @@
--- Step 1. Create a table and name it students. It should contain the following information: name, website, github_username, point, gender, cohort_start_date, graduated.
+-- Step 1. Create a table and name it students. It should contain the following information: name, website, github_username, points, gender, cohort_start_date, graduated.
 
 -- Step 2. Add three students to your table.
 
