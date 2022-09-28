@@ -1,0 +1,24 @@
+{
+  "name": "sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "db:up": "npx sequelize db:create && npx sequelize db:migrate",
+    "db:create": "npx sequelize db:create",
+    "db:migrate": "npx sequelize db:migrate"
+  },
+  "author": "Dezarea Bryan",
+  "license": "ISC",
+  "devDependencies": {
+    "sequelize-cli": "^6.5.1"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "sequelize": "^6.23.2",
+    "sqlite3": "^5.1.1"
+  }
+}
