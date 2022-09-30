@@ -6,6 +6,7 @@ module.exports = {
       id: {
         allowNull: false,
         autoIncrement: true,
+        // Primary key is aconstraint that has two requirements. 1). It must be unique 2). Cannot be be null (empty)
         primaryKey: true,
         type: Sequelize.INTEGER
       },
@@ -19,7 +20,7 @@ module.exports = {
         type: Sequelize.DATE
       },
       grade: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,

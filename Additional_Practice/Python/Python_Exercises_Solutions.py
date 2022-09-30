@@ -471,7 +471,6 @@
 
 
 
-
 # # *Exercise 31 Solution and Explanation*
 
 
@@ -520,7 +519,7 @@
 # print(numSum(12,13,14))                                   # print out the function
 
 
-# *--------------------------- Solutions available below. Explanation and hints coming soon. -------------------------------------------
+
 
 # # *Exercise 34 Solution and Explanation*
 
@@ -537,34 +536,34 @@
 
 
 # def finalSequence():                                  # set up your second function
-#     try:
-#         value = int(input('Please enter a positive number: '))
-#         fibonacci(value)
-#         for numbers in range(value):
-#             print(fibonacci(numbers))
-#     except ValueError:
-#         print("Invalid entry.")
+#     try:                                              # use a try/except to catch errors
+#         value = int(input('Please enter a positive number: '))    # get the user to input a number
+#         fibonacci(value)                              # call the previous function and pass in the number that the user entered above
+#         for numbers in range(value):                  # set up for loop to run through the range of the given number
+#             print(fibonacci(numbers))                 # print out the first function, each time the loop iterates you will get a new number until you reach the end of the range.
+#     except ValueError:                                # use a try/except to catch errors
+#         print("Invalid entry.")                       # if the user passes an invalid character they will get this message
 
-# finalSequence()
+# finalSequence()                                       # call function
 
 
 
 
 # # *Exercise 35 Solution and Explanation*
 
-# import unittest
-# import math 
+# import unittest                                 # bring in the unit test library
+# import math                                     # bring in the math library
 
-# pi = math.pi
+# pi = math.pi                                    # assign the variable pi to math.pi so we don't have to write math.pi every time
 
-# def area_circle(radius):
-#     if type(radius) not in [int,float]:
-#         raise TypeError("Radius must be a positive, whole number.")
-#     elif radius < 0:
-#         raise ValueError("The radius cannot be negative.")
-#     return pi*(radius**2)
+# def area_circle(radius: int):                   # set up function to take in one int as a parameter
+#     if type(radius) not in [int,float]:         # if what was passed in was not a number
+#         raise TypeError("Radius must be a positive, whole number.") # raise a type error to let them know what we are expecting
+#     elif radius < 0:                            # if a negative number is entered as the radius
+#         raise ValueError("The radius cannot be negative.")  # then raise a value error to let them know that the radius cannot be negative
+#     return pi*(radius**2)                       # return the radius
 
-# print(area_circle(10))
+# print(area_circle(-8))                          # print out your function
 
 # class TestAreaCircle(unittest.TestCase):
 #     def test_area(self):
@@ -580,7 +579,9 @@
 #         self.assertRaises(TypeError, area_circle, 3+5j) 
 #         self.assertRaises(TypeError, area_circle, True)
 #         self.assertRaises(TypeError, area_circle, "radius")
+    
 
+# unittest.main()
 
 
 
@@ -588,18 +589,18 @@
 # # *Exercise 36 Solution and Explanation*
 
 
-# def createSequence():
+# def createSequence():                             # create a function that takes no parameters
     
-#     try:
-#         MIN = int(input('What number would you like to start the sequence? '))
-#         MAX = int(input('What number would you like to end the sequence? This number must be larger than the number previously entered. '))
-#         while MIN <= MAX:
-#             print(MIN)
-#             MIN += 1
-#     except ValueError:
-#         print("Invalid entry.")
+#     try:                                          # set up your try/except block
+#         MIN = int(input('What number would you like to start the sequence? '))    # get the smaller number from the user
+#         MAX = int(input('What number would you like to end the sequence? This number must be larger than the number previously entered. '))                             # get the larger number from the user
+#         while MIN <= MAX:                         # while the first number given is smaller than the last number
+#             print(MIN)                            # print the smaller number
+#             MIN += 1                              # increment the smaller number each iteration
+#     except ValueError:                            # set up your try/except block
+#         print("Invalid entry.")                   # let the user know they have entered invalid characters
 
-# createSequence()
+# createSequence()                                  # call your function
 
 
 
@@ -608,59 +609,58 @@
 
 # # *Exercise 37 Solution and Explanation*
 
-# numList = [-15, 1, 5, 9, 8, -78, 86, -4, -1, 0]
-# posnum = [num for num in numList if num > 0]
+# numList = [-15, 1, 5, 9, 8, -78, 86, -4, -1, 0]   # set up the variable numList to hold your initial list
+# posnum = [num for num in numList if num > 0]      # set up the variable posnum, and a neat trick here is that we can run our for loop inside of brackets, and python understands we are trying to place the results in this list.
 
-# print(posnum)
+# print(posnum)                                     # print out your new list
 
 
 
 
 # # *Exercise 38 Solution and Explanation*
 
-# numList = [1, 2, 3, 4, 5]
-# result = [num * 3 for num in numList]
+# numList = [1, 2, 3, 4, 5]                         # set up the variable numList to hold your initial list
+# result = [num * 3 for num in numList]             # set up the variable result, and a neat trick here is that we can run our for loop inside of brackets, and python understands we are trying to place the results in this list.
 
-# print(result)
+# print(result)                                     # print out your new list
 
 
 
 
 # # *Exercise 39 Solution and Explanation*
 
-# txt = "This is the final small problem for the sequence homework "
-# reverse = ""
-# for char in txt:
-#     reverse = char + reverse
-# print(reverse)
+# txt = "This is the final small problem for the sequence homework "    # set up the variable txt to hold your initial string
+# reverse = ""                                      # set up the variable reverse to hold an empty string
+# for char in txt:                                  # for each character in the original string
+#     reverse = char + reverse                      # attach it to the reverse string, by adding reverse and char
+# print(reverse)                                    # return the new string
 
 
 
 
 
 # # *Exercise 40 Solution and Explanation*
-# Multiply Vectors
 
-# a_vector = [2, 4, 5] 
-# b_vector = [2, 3, 6]
-# c_vector = []
+# a_vector = [2, 4, 5]                              # set up the first vector you would like to multiply
+# b_vector = [2, 3, 6]                              # set up the second vector you would like to multiply
+# c_vector = []                                     # set up a third empty vector that will hold the result
 
-# for i in range(0, len(b_vector)):
-#     c_vector.append(a_vector[i] * b_vector[i])
-# print(c_vector)
+# for i in range(0, len(b_vector)):                 # set up for loop to run the length of the vector, I chose to start with the second one first, but you could switch the a and b vector spots for the same result. 
+#     c_vector.append(a_vector[i] * b_vector[i])    # assign our empty vector to hold the multiplied values of the first two vectors at their appropriate indices
+# print(c_vector)                                   # print out the new vector
 
 
 
 
 # # *Exercise 41 Solution and Explanation*
 
-# a = [[1, 2], [3, 4]]
-# b = [[5, 6], [7, 8]]
-# c = []
-# for i in range(0, 2):
-#     for x in range(0, 2):
-#         c.append(a[i][x] + b[i][x])
-# print(c)
+# a = [[1, 2], [3, 4]]                              # set up a variable to hold a list of two lists, each of the inner lists containing two numbers
+# b = [[5, 6], [7, 8]]                              # set up a variable to hold a list of two lists, each of the inner lists containing two numbers
+# c = []                                            # set up a variable to hold an empty list
+# for i in range(0, 2):                             # set up our for loop to run through the outer vectors
+#     for x in range(0, 2):                         # set up our for loop to run through the inner vectors 
+#         c.append(a[i][x] + b[i][x])               # add the values at the appropriate positions
+# print(c)                                          # print out the added values
 
 
 
@@ -668,14 +668,14 @@
 # # *Exercise 42 Solution and Explanation*
 
 
-# a = [[1, 2, 3], [9, 10, 11], [16, 17, 18]]
-# b = [[5, 6, 7], [13, 14, 15], [19, 20, 21]]
-# c = []
-# for i in range(0, len(a)):
-#     for x in range(0, len(b)):
-#         c.append(a[i][x] + b[i][x])
+# a = [[1, 2, 3], [9, 10, 11], [16, 17, 18]]        # set up a variable to hold a list of three lists, each of the inner lists containing three numbers 
+# b = [[5, 6, 7], [13, 14, 15], [19, 20, 21]]       # set up a variable to hold a list of three lists, each of the inner lists containing three numbers 
+# c = []                                            # set up a variable to hold an empty list
+# for i in range(0, len(a))::                       # set up our for loop to run through the outer vectors
+#     for x in range(0, len(b))::                   # set up our for loop to run through the inner vectors
+#         c.append(a[i][x] + b[i][x])               # add the values at the appropriate positions
         
-# print(c)
+# print(c)                                          # print out the added values
 
 
 

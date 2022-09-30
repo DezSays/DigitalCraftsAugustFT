@@ -234,21 +234,67 @@
 
 # *EXERCISE 34 HINT *
 # set up two functions
+# use if statements to check if the number is below 0, equal to 0, or 1, else you want to return the sum. 
+# in your second function, set up for loop to run through the range of the given number (value)
+# print out the first function with the (value) passed in, each time the loop iterates you will get a new number until you reach the end of the range.
 
 
 
+# *EXERCISE 35 HINT *
+# Test the areas where the radius is >= 0
+# Make sure that the value errors are raised when necessary
+# Make sure type errors are raised when necessary
 
 
 
+# *EXERCISE 36 HINT *
+# use a try except to catch errors
+# ask the user to enter two numbers
+# while the first number given is smaller than the last number
+# print the smaller number
+# increment the smaller number each iteration
 
 
 
+# *EXERCISE 37 HINT *
+# set up your for loop to get all numbers larger than 0
 
 
 
+# *EXERCISE 38 HINT *
+# set up your for loop to multiply each value by 3
 
+
+
+# *EXERCISE 39 HINT *
+# set up the variable reverse to hold an empty string, we will call it reverse
+# for each character in the original string
+# attach it to the reverse string, by adding reverse and i from your for loop
+
+
+
+# *EXERCISE 40 HINT *
+# set up for loop to run the length of one of your vectors. 
+# assign our empty vector to hold the multiplied values of the first two vectors at their appropriate indices
+
+
+
+# *EXERCISE 41 HINT *
+# set up our for loop to run through the outer vectors[i]
+# set up our for loop to run through the inner vectors[x] 
+# add the values at the appropriate positions[i][x]
+
+
+
+# *EXERCISE 42 HINT *
+# set up our for loop to run through the outer vectors[i]
+# set up our for loop to run through the inner vectors[x] 
+# add the values at the appropriate positions[i][x]
 
 
 
 # *EXERCISE 43 HINT *
 # Use modulos to see if the integer % 10 <= 2 or if the integer % 10 >= 8
+# if the number divided by 10 has a remainder of 2 or less, or a remainder of 8 or more, return True
+# else return false
+

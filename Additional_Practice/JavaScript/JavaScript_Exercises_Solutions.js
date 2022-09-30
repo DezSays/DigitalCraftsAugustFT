@@ -1,6 +1,6 @@
 // * Exercise 1: Solution and Explanation *
 
-// for(let num = 0; num <= 10; num++) {    //Set up your for loop with your variable = 0, run through while the variable is less than or equal to 10, and increment the variable each time
+// for(let num = 1; num <= 10; num++) {    //Set up your for loop with your variable = 0, run through while the variable is less than or equal to 10, and increment the variable each time
 //     console.log(num)                    //print out the numbers 1-10
 // }
 
@@ -223,3 +223,6 @@
 
 // let result = bubbleSort(nums);                   //store the results of the function to a variable
 // console.log(result);                             //print out the results
+
+
+

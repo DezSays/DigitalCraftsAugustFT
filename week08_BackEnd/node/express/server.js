@@ -3,6 +3,7 @@ const moment = require('moment')
 const logger = require('./logger')
 let pokedex = require('./database')
 const ejs = require('ejs')
+const pg = require('pg-promise')();
 
 
 // Express allows us to create a server that can host an API. We are hosting the API
@@ -13,6 +14,7 @@ const app = express()
 app.use(express.json())
 app.set('view engine', 'ejs')
 
+const db = pg("postgres://postgres:test@localhost:5432/postgres");
 
 
 app.all('*', (req, res, next) => {
@@ -28,21 +30,31 @@ app.all('*', (req, res, next) => {
 // *GET REQUESTS SHOULD NEVER HAVE A BODY *
 // GET methods should always take parameters as a query (ie. /pokemon/?name=pikachu)
 
-// Get all pokemon from the pokdex
+// Get all pokemon from the pokedex
 app.get('/', function (request, response) {
-  response.send(pokedex)
+  //response.send(pokedex)
+  db.any('SELECT * FROM pokemon').then((pokemon) => {
+    logger.info({
+        status_code: response.statusCode,
+        response_body: pokemon,
+        time: new Date()
+    })
+    response.send(pokemon)
+});
 })
 
 // Get a single pokemon from the pokedex
 app.get('/pokemon', function (request, response) {
-    let pokemon = request.query.name
-    for(let i = 0; i < pokedex.length; i++) {
-      if(pokedex[i].name == pokemon) {
-        hp = pokedex[i].hp
-        response.send(pokedex[i]);
-      }
-    }
-    response.send(`${pokemon} does not exist.`)
+    let pokeName = request.query.name
+       db.oneOrNone(`SELECT * FROM pokemon WHERE name = $1`, pokeName).then((poke) => {
+        logger.info({
+            status_code: response.statusCode,
+            response_body: poke,
+            time: new Date()
+        })
+        response.send(poke)
+    });
+    
   })
 
 // Sending a template to the browser
