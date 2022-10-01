@@ -298,3 +298,20 @@
 # if the number divided by 10 has a remainder of 2 or less, or a remainder of 8 or more, return True
 # else return false
 
+
+
+# *EXERCISE 44 HINT *
+# Use the built-in min() and max() functions to return the smaller or larger of the two values.
+
+
+
+# *EXERCISE 45 HINT *
+# Use if statement to check if the length of the list is greater than 0
+# set up for loop to run the length of the list
+# use if statement to assess if any value == 13, if so, replace the value to = 0
+# use if statement to see if there is a number found after a 13 is found, if so, replace that value to = 0 as well. 
+
+
+
+# *EXERCISE 46 HINT *
+# for num in nums: will loop through all the valuse in the list. Loop through all the valuse, and count how many times the value is even

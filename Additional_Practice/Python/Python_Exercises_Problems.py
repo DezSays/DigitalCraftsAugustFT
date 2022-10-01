@@ -479,3 +479,30 @@
 # near_ten(12) → True
 # near_ten(17) → False
 # near_ten(19) → True
+
+
+
+# * Exercise 44: Given an array length 1 or more of integers, return the difference between the largest and smallest values in the array.  
+
+# For example:
+# big_diff([10,3,5,6]) → 7
+# big_diff([10,7,2,9]) → 8
+# big_diff([10,2,7,2]) → 8
+
+
+
+# * Exercise 45: Return the sum of the numbers in the array, returning 0 for an empty array. Except the number 13 is very unlucky, so it does not count and the number that comes immediately after 13 does not count.
+
+# For example:
+# sum13([13,1,2,13,2,1,13]) → 3
+# sum13([1,2,2,1,13]) → 6
+# sum13([5,13,2]) → 5
+
+
+
+# * Exercise 46: Return the number of even integers in the given array. Note: the % mod operator computes the remainder, e.g. 5 % 2 is 1.
+
+# For example:
+# count_evens([13,1,2,13,2,1,13]) → 3
+# count_evens([1,2,2,1,13]) → 3
+# count_evens([5,13,2]) → 0

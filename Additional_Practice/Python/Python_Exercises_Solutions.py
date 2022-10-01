@@ -690,3 +690,42 @@
 #   else:                                 # if the number is not positive
 #     return False                        # return false
 # print(near_ten(52))                     # return the result of your function
+
+
+
+# *Exercise 44 Solution and Explanation*
+
+# def big_diff(nums: list) -> int:            # set up function t take on list as a paramater
+#     big = max(nums)                         # assign variable to hold the largest number using the built in max function
+#     small = min(nums)                       # assign variable to the smallest number using the built in min function
+#     result = big - small                    # assign variable to hold the difference between the largest and smallest integer
+#     return result                           # return the difference stored in the variable above
+# print(big_diff([10,3,5,6]))                 # print out your function
+
+
+
+# *Exercise 45 Solution and Explanation*
+
+# def sum13(nums: list) -> int:               # set up function to take in one list as a parameter and return and integer
+#     if len(nums) <= 0:                      # if the length of the list is 0 or less
+#         return 0                            # then return 0
+#     for i in range(len(nums)):              # set up for loop to run as long as the length of the list is
+#         if nums[i] == 13:                   # if there is a 13 found in the list
+#             nums[i] = 0                     # replace the value of the 13 with a 0
+#             if i+1 < len(nums):             # if there is another number found after 13
+#                 nums[i+1] = 0               # it also has its value replaced with 0
+#     return sum(nums)                        # return the sum of the list now that the values have been updated
+# print(sum13([13,1,2,13,2,1,13]))            # print out your function
+
+
+
+# *Exercise 45 Solution and Explanation*
+
+# def count_evens(nums: list) -> int:               # set up function to take in one list as a parameter and return and integer
+#     count = 0                                     # set variable to 0
+#     for i in nums:                                # set up for loop to run through the list
+#         if (i % 2 == 0):                          # if any number in the list can be evenly divided by 2
+#             count = count+1                       # increment the count variable
+#     return count                                  # return how many even numbers are in the list
+# print(count_evens([2,2,0]))                       # print out function
+
