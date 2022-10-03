@@ -315,3 +315,9 @@
 
 # *EXERCISE 46 HINT *
 # for num in nums: will loop through all the valuse in the list. Loop through all the valuse, and count how many times the value is even
+
+
+
+# *EXERCISE 47 HINT *
+# Use the built-in count function to count the occurances of 'cat' and 'dog'
+# Use an if/else statement to return boolean values

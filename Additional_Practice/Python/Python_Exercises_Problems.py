@@ -506,3 +506,13 @@
 # count_evens([13,1,2,13,2,1,13]) → 3
 # count_evens([1,2,2,1,13]) → 3
 # count_evens([5,13,2]) → 0
+
+
+
+# * Exercise 47: Return True if the string 'cat' and 'dog' appear the same number of times in the given string.
+
+# For example:
+# cat_dog("catdog") → True
+# cat_dog("catcat") → False
+# cat_dog("1cat1cadodog") → True
+ 

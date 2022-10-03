@@ -719,7 +719,7 @@
 
 
 
-# *Exercise 45 Solution and Explanation*
+# *Exercise 46 Solution and Explanation*
 
 # def count_evens(nums: list) -> int:               # set up function to take in one list as a parameter and return and integer
 #     count = 0                                     # set variable to 0
@@ -728,4 +728,17 @@
 #             count = count+1                       # increment the count variable
 #     return count                                  # return how many even numbers are in the list
 # print(count_evens([2,2,0]))                       # print out function
+
+
+
+# *Exercise 47 Solution and Explanation*
+
+# def cat_dog(str: str) -> bool:                  # set up function to take in one string and know that we are expecting it to return a boolean value
+#     catCount = str.count('cat')                 # use the built-in count function to count the occurance of the word 'cat'
+#     dogCount = str.count('dog')                 # use the built-in count function to count the occurance of the word 'dog'
+#     if catCount == dogCount:                    # if there are the same amount of occurances of the words 'dog' and 'cat'
+#         return True                             # return true
+#     else:                                       # otherwise
+#         return False                            # return false
+# print(cat_dog('catdog'))                        # print out your function
 
