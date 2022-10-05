@@ -91,7 +91,7 @@ app.put('/pokemon/:name', (request, response)=> {
     if(typeof(request.body.hp) != 'number'){
         response.statusCode = 400
         response.send(`HP value is not valid`)
-    }
+    } 
 
     let updated = {}
     for(let i = 0; i < pokedex.length; i++) {

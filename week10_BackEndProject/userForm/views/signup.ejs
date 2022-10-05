@@ -1,0 +1,12 @@
+<form action="/createuser" method="post">
+    <div>
+        <legend>Registration</legend>
+        <% {%>
+            firstname: <input type="text" name="firstname" value="John" /><br><br>
+            lastname:  <input type="text" name="lastname" value="Doe" /><br><br>
+            email:  <input type="text" name="email" value="db@test.com" /><br><br>
+            address:  <input type="text" name="address" value="123 water way" /><br><br>
+            <input type="submit" value="accept"/><br><br><hr>
+        <%} %>
+    </div>
+</form>
