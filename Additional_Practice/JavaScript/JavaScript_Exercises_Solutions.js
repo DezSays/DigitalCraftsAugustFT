@@ -224,5 +224,45 @@
 // let result = bubbleSort(nums);                   //store the results of the function to a variable
 // console.log(result);                             //print out the results
 
+// ********************* Explanations for solutions and hints coming soon for those below *********************
 
+// * Exercise 13: Solution *
+
+// const p = document.querySelector('p');
+// p.innerHTML = p.innerText
+//   .split(' ')
+//   .map(word => word.length > 8 ? `<span style="background-color: yellow">${word}</span>` : word)
+//   .join(' ');
+
+
+// * Exercise 14: Solution *
+
+// const link = document.createElement('a');
+// link.href = `http://forcemipsum.com/`;
+// link.innerText = `Forcem Ipsum Link`;
+// document.body.appendChild(link);
+
+
+// * Exercise 15: Solution *
+
+// const p = document.querySelector('p');
+// p.innerHTML = p.innerHTML
+//   .split(/\.[^\.|<]/);
+//   .join(`.</p><p>`) + `</p>`;
+
+
+// * Exercise 16: Solution *
+
+// const p = document.querySelector('p');
+// const wordCount = p.innerText.split(' ').length;
+// const wordCountElem = document.createElement(`div`);
+// wordCountElem.innerText = `${wordCount} words`;
+// document.body.insertBefore(wordCountElem, p);
+
+
+// * Exercise 17: Solution *
+
+// const paragraph = document.querySelector('p');
+// paragraph.innerHTML = paragraph.innerText.replace(/[?]/g, '🤔');
+// paragraph.innerHTML = paragraph.innerText.replace(/[!]/g, '😲');
 

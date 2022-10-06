@@ -44,3 +44,24 @@
 //* Exercise 12: Implement the bubble sort algorithm to sort an array of numbers from least to greatest. *
 
 
+
+//* Exercise 13: Using the given JavaScript_Exercises.html, highlight all of the words over 8 characters long in the paragraph text (with a yellow background) *
+
+
+
+//* Exercise 14: Using the given JavaScript_Exercises.html, add a link back to the source of the text after the paragraph tag. (https://forcemipsum.com/) *
+
+
+
+//* Exercise 15: Using the given JavaScript_Exercises.html, split each new sentence on to a separate line in the paragraph text. A sentence can be assumed to be a string of text terminated with a period (.) *
+
+
+
+//* Exercise 16: Using the given JavaScript_Exercises.html, count the number of words in the paragraph tag and display the count afer the heading. You can assume that all words are separated by one singular whitespace. *
+
+
+
+//* Exercise 17: Using the given JavaScript_Exercises.html, replace all question marks (?) with thinking faces (🤔) and exclamation marks (!) with astonished faces (😲) *
+
+
+
