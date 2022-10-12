@@ -21,15 +21,15 @@ describe('fileName', () => {
     })
 
     describe('passing sumFunc()', () => {
-        it('we expect a sum of 10: expect style', () =>{
+        it('we expect a sum of 10 | expect style', () =>{
             expect(sumFunc([5,5])).to.equal(10)
             console.log('1st test')
         })
-        it('we expect a sum of 10: assert style', () =>{
+        it('we expect a sum of 10 | assert style', () =>{
             assert.equal(sumFunc([5,5]), 10, '5 + 5 = 10')
             console.log('2nd test')
         })
-        it('we expect a sum of 10: should style', () =>{
+        it('we expect a sum of 10 | should style', () =>{
             result = sumFunc([5,5])
             result.should.equal(10)
             console.log('3rd test')
@@ -52,15 +52,15 @@ describe('fileName', () => {
     })
 
     describe('Check type', () => {
-        it('we expect words to be a string: expect style', () => {
+        it('we expect words to be a string | expect style', () => {
             expect(words).to.be.a('string')
             console.log('7th test')
         })
-        it('we expect words to be a string: assert style', () => {
+        it('we expect words to be a string | assert style', () => {
             assert.typeOf(words, 'string')
             console.log('8th test')
         })
-        it('we expect words to be a string: should style', () => {
+        it('we expect words to be a string | should style', () => {
             result = typeof words 
             result.should.be.a('string')
             console.log('9th test')
