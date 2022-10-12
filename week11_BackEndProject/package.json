@@ -1,0 +1,22 @@
+{
+  "name": "week11_backendproject",
+  "version": "1.0.0",
+  "main": "fileName.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "mocha-css": "^1.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Dezarea Bryan",
+  "license": "ISC",
+  "description": "JavaScript Unit Testing with Mocha & Chai",
+  "dependencies": {
+    "node": "^18.10.0"
+  }
+}

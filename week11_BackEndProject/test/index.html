@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/mocha-css" rel="stylesheet" />
+    <title>Mocha & Chai Unit Testing</title>
+</head>
+<body>
+    
+    <div id="mocha"></div>
+
+    <!-- Add Chai & Mocha Frameworks -->
+    <script src="https://unpkg.com/chai/chai.js"></script>
+    <script src="https://unpkg.com/mocha/mocha.js"></script>
+
+    <!-- Bring in the file you want to test -->
+    <script src="../src/fileName.js"></script>
+
+    <!-- Initialize mocha -->
+    <script>mocha.setup('bdd')</script>
+
+    <!-- Chai assertion styles -->
+    <script>
+        let expect = chai.expect;
+        let should = chai.should();
+        let assert = chai.assert;
+    </script>
+
+    <!-- Add test file -->
+    <script src="./fileName.test.js"></script>
+
+    <!-- Run unit tests -->
+    <script>
+        mocha.run()
+    </script>
+</body>
+</html>
+
