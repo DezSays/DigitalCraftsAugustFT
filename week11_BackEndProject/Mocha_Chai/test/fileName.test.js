@@ -68,7 +68,10 @@ describe('fileName', () => {
     })
 
     describe('failing sumFunc()', () =>{
-        it('we expect failure', () =>{
+        it('we expect failure', () => {
+            expect(sumFunc('five')).to.equal(5)
+        })
+        it('we expect success, but check the console log', () =>{
             try{
                 expect(sumFunc('five')).to.equal(5)
             }
