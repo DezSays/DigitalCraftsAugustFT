@@ -65,3 +65,128 @@
 
 
 
+
+//* Exercise 18: Using the includes method, return whether or not the list contains the number 2. *
+// * const nums = [1,2,3,4,5]
+
+
+
+
+//* Exercise 19: Using the reduce method, return the total price if someone were to purchase all of the items in our store. *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+
+//* Exercise 20: Using the some method, display whether or not we have items priced at $500 or more in our store. *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+
+
+//* Exercise 21: Using the every method, display whether or not our store contains only items priced at $1000 or less. *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+
+
+//* Exercise 22: Using the forEach method, print out only the names of the items in our shop *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+
+
+//* Exercise 23: Using the find method, display the information for the item: computer *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+
+
+//* Exercise 24: Using the filter method, return all items priced at $100 or less *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+
+
+
+//* Exercise 25: Using the map method, display only the names of items that are priced at $200 or less *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+

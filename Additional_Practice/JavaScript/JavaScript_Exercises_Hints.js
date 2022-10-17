@@ -107,3 +107,64 @@
 // Set up a function to take in one parameter. 
 // Bubble sort checks the value of the current index and compares it to the value of the index beside it. Example: nums[i] > nums[i+1].
 
+
+
+// * HINT 18 *
+
+// nums.includes(2)
+
+
+
+// * HINT 19 *
+
+// shop.reduce((currentTotal, item) => {
+    // ... logic here ... 
+// }, set inital count to 0)
+
+
+
+// * HINT 20 *
+
+// shop.some((item) => {
+//     ... logic here ...
+// })
+
+
+
+// * HINT 21 *
+
+// shop.every((item) => {
+//     ... logic here ...
+// })
+
+
+
+// * HINT 22 *
+
+// shop.forEach((item) => {
+//     ... logic here ... 
+// })
+
+
+
+// * HINT 23 *
+
+// shop.find((item) => {
+//     ... logic here ... 
+// })
+
+
+
+// * HINT 24 *
+
+// shop.filter((item) => {
+//     ... logic here ...
+// })
+
+
+
+// * HINT 25 *
+
+// shop.map((item) => {
+//     ... logic here ...
+// })

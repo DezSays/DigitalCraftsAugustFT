@@ -266,3 +266,170 @@
 // paragraph.innerHTML = paragraph.innerText.replace(/[?]/g, '🤔');
 // paragraph.innerHTML = paragraph.innerText.replace(/[!]/g, '😲');
 
+
+// * Exercise 18: Solution *
+
+// const nums = [1,2,3,4,5]            // set up our list of numbers
+// const result = nums.includes(2)     // using the includes method, check if a 2 is in our list
+// console.log(result)                 // print our our results
+
+
+// * Exercise 19: Solution *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+
+// const result = shop.reduce((currentTotal, item) => {        // save our function to the variable called result, and using the reduce method we are passing in our current total (which we will initialize below) and each item we are going to run through in the list
+//     let total = item.price + currentTotal                   // assign our variable to hold the item price plus the current total
+//     return total                                            // return the total amount spent
+// }, 0)                                                       // here is where we initalize our current total to 0
+
+// console.log(result)                                         // print our results
+
+
+
+// * Exercise 20: Solution *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+// const result = shop.some((item) => {                        // the variable result will hold the result of using the some method to filter through our list
+//     return item.price <= 100                                // if anything in our list contains an item priced at $100 or less we will get true, otherwise we will get false
+// })
+
+// console.log(result)                                         // print our results
+
+
+
+// * Exercise 21: Solution *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+// const result = shop.every((item) => {                        // the variable result will hold the result of using the every method to filter through our list
+//     return item.price <= 1000                                // if everything in our list is priced at $1000 or less we will get true, otherwise we will get false
+// })
+
+// console.log(result)                                         // print our result
+
+
+
+// * Exercise 22: Solution *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+// shop.forEach((item) => {                // use the for each method to filter through each item in our list
+//     console.log(item.name)              // return the names of all the itmes in our shop
+// })
+
+
+
+// * Exercise 23: Solution *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+// const result = shop.find((item) => {                        // the variable result will hold the result of using the find method to filter through our list
+//     return item.name === 'computer'                             // return the information for our item called computer
+// })
+
+// console.log(result)                                         // print our result
+
+
+
+// * Exercise 24: Solution *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+// const result = shop.filter((item) => {                        // the variable result will hold the result of using the filter method to filter through our list
+//     return item.price <= 100                             // return the information for our items priced at $100 or less
+// })
+
+// console.log(result)                                         // print our result
+
+
+
+// * Exercise 25: Solution *
+
+// const shop = [
+//     { name: 'computer', price: 1000 },
+//     { name: 'keyboard', price: 50 },
+//     { name: 'mouse', price: 25 },
+//     { name: 'printer', price: 300 },
+//     { name: 'usb', price: 10 },
+//     { name: 'monitor', price: 200 },
+//     { name: 'ink', price: 100 },
+//     { name: 'paper', price: 10 },
+//     { name: 'mouse pad', price: 20 },
+//     { name: 'chair', price: 15 }
+// ]
+
+// const result = shop.map((item) => {                        // the variable result will hold the result of using the map method to filter through our list
+//     if(item.price <= 200){                                  // if the items cost 200 or less
+//         console.log(item.name)                              // we will return the items names
+//     }            
+// })
+
