@@ -109,6 +109,48 @@
 
 
 
+// * HINT 13 *
+
+// Use query selector to grab all p tags
+// Set the innerhtml equal to the innertext of all p tags
+// To answer it the way I did, you will need to use: split, map, join, and a ternary operator.
+
+
+
+// * HINT 14 *
+
+// create a variable that is set to create a tags using document.createElement 
+// add an href tag to this variable
+// change the inner text
+// append this to the end of the body
+
+
+
+// * HINT 15 *
+
+// set a variable to hold all of your p tags
+// set the innerhtml of the p tag to the innertext of the p tag
+// use split and join methods
+
+
+
+// * HINT 16 *
+
+// create a variable to select p tags
+// create a variable to create div tags
+// create a variable that will hold the length of words; use split and length here
+// set the inner text of a new div to the variable above
+// use insertBefore to add this to the top of the body
+
+
+
+// * HINT 17 *
+
+// use query selector to grab all p tags
+// assign the inner html of the p tags accordingly using the replace method
+
+
+
 // * HINT 18 *
 
 // nums.includes(2)

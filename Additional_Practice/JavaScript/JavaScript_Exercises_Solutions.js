@@ -224,47 +224,49 @@
 // let result = bubbleSort(nums);                   //store the results of the function to a variable
 // console.log(result);                             //print out the results
 
-// ********************* Explanations for solutions and hints coming soon for those below *********************
 
 // * Exercise 13: Solution *
 
-// const p = document.querySelector('p');
-// p.innerHTML = p.innerText
-//   .split(' ')
-//   .map(word => word.length > 8 ? `<span style="background-color: yellow">${word}</span>` : word)
-//   .join(' ');
+// const p = document.querySelector('p');       // select all p tags and assign to variable p so we can manipulate the data below
+// p.innerHTML = p.innerText                    // set the innerhtml equal to the innertext of all p tags
+//   .split(' ')                                // this will take out the spacing temporarily so that the space is not counted as a character
+//   .map(word => word.length > 8 ? `<span style="background-color: yellow">${word}</span>` : word) // using the map method, we are checking each word to see if the length of that word is greater than 9. Using a ternary operator, we are saying that if the word is larger than 8, we want that word highlighted, if not just leave the word alone.
+//   .join(' ');                                // add those spaces back in there 
 
 
 // * Exercise 14: Solution *
 
-// const link = document.createElement('a');
-// link.href = `http://forcemipsum.com/`;
-// link.innerText = `Forcem Ipsum Link`;
-// document.body.appendChild(link);
+// const link = document.createElement('a');    // assign variable link to create a tags
+// link.href = `http://forcemipsum.com/`;       // add an href with a passed in url
+// link.innerText = `Forcem Ipsum Link`;        // add what we want our link to show up as, in this case Forcem Ipsum Link
+// document.body.appendChild(link);             // we are then adding this link to the bottom of the body
 
 
 // * Exercise 15: Solution *
 
-// const p = document.querySelector('p');
-// p.innerHTML = p.innerHTML
-//   .split(/\.[^\.|<]/);
-//   .join(`.</p><p>`) + `</p>`;
+// const p = document.querySelector('p');       // assign variable to hold our p tags
+// p.innerHTML = p.innerText                    // set the innerHTML to the innerText
+//     .split(/\.[^\.|<]/)                     // split the sentences where a period is found with a space following it
+//     .join(`.</p><p>`) + `</p>`;             // this makes each sentence placed inside a new p tag. 
+
 
 
 // * Exercise 16: Solution *
 
-// const p = document.querySelector('p');
-// const wordCount = p.innerText.split(' ').length;
-// const wordCountElem = document.createElement(`div`);
-// wordCountElem.innerText = `${wordCount} words`;
-// document.body.insertBefore(wordCountElem, p);
+// const p = document.querySelector('p');                   // assign variable to hold our p tags
+// const wordCount = p.innerText.split(' ').length;         // assign variable wordcount to be the length of the text if there were no spaces in it
+// const wordCountElem = document.createElement(`div`);     // set variable that we can use to create divs
+// wordCountElem.innerText = `${wordCount} words`;          // create a div and set the text to say "(number of words here) words"
+// document.body.insertBefore(wordCountElem, p);            // add this new div with a new p tag to the top of the body
+
 
 
 // * Exercise 17: Solution *
 
-// const paragraph = document.querySelector('p');
-// paragraph.innerHTML = paragraph.innerText.replace(/[?]/g, '🤔');
-// paragraph.innerHTML = paragraph.innerText.replace(/[!]/g, '😲');
+// const paragraph = document.querySelector('p');                   // grab all the p tags
+// paragraph.innerHTML = paragraph.innerText.replace(/[?]/g, '🤔'); // replace the question marks in our p tags with the thinking emoji
+// paragraph.innerHTML = paragraph.innerText.replace(/[!]/g, '😲'); // replace the exclamations in our p tags with the surprised emoji
+
 
 
 // * Exercise 18: Solution *

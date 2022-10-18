@@ -57,7 +57,7 @@
 
 -- Step 9. Display only the names of employees that have an upper case T in their name.
 
---* SELECT name FROM employee WHERE name like '%D%';
+--* SELECT name FROM employee WHERE name like '%T%';
 
 -- Step 10. Take out the gender column from the table.
 
