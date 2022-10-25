@@ -321,3 +321,21 @@
 # *EXERCISE 47 HINT *
 # Use the built-in count function to count the occurances of 'cat' and 'dog'
 # Use an if/else statement to return boolean values
+
+
+
+# *EXERCISE 48 HINT *
+# use .lower() to return the lower case version of the string
+# use .endswith() to check the ends of each string
+
+
+
+# *EXERCISE 49 HINT *
+# set up a for loop to run the range(len(str))
+# The new string should be the original string index plus that same string index. Since this is a string, use concatenation.
+
+
+
+# *EXERCISE 50 HINT *
+# use an else/if statement to check the length of each string
+# use concatenation for the order of the new string

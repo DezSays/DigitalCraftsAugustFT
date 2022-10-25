@@ -515,4 +515,33 @@
 # cat_dog("catdog") → True
 # cat_dog("catcat") → False
 # cat_dog("1cat1cadodog") → True
- 
+# *****************************************************************************************************
+
+
+
+# * Exercise 48: Given two strings, return True if either of teh strings appears at the very end of the other string, ignoring upper and lower case differences. 
+
+# For example:
+# ends('Testxyz', 'XyZ') → True
+# ends('XyZ', 'TestxYZ') → True
+# ends('XYZxyz', 'xyz') → True
+
+
+
+# * Exercise 49: Given a string, return a string where every character is repeated.
+
+# For example:
+# doubleTrouble("Dez") → "DDeezz"
+# doubleTrouble("DC-Students") → "DDCC--SSttuuddeennttss"
+# doubleTrouble("YeeHaw") → "YYeeeeHHaaww"
+
+
+
+# * Exercise 50: Given 2 strings, return a string of the form shortString + longString + shortString. 
+
+# For example:
+# tripleThreat("hey", "howdy") → "heyhowdyhey"
+# tripleThreat("cat","x") → "xcatx"
+# tripleThreat("wowza", "YEET") → "YEETwowzaYEET"
+
+

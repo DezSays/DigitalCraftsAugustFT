@@ -742,3 +742,42 @@
 #         return False                            # return false
 # print(cat_dog('catdog'))                        # print out your function
 
+
+
+# *Exercise 48 Solution and Explanation*
+
+# def ends(str1: str, str2: str) -> bool:                                 # set up function to take in two string and know that we are expecting it to return a boolean value
+#     str1 = str1.lower()                                                 # use the built-in lower function to get the lowercase value of the string
+#     str2 = str2.lower()                                                 # use the built-in lower function to get the lowercase value of the string
+#     if str1.endswith(str2) or str2.endswith(str1):                      # use the .endswith() function to compare if either string ends with the other string. If they do,
+#         return True                                                     # return true
+#     else:                                                               # otherwise
+#         return False                                                    # return false
+# print(ends('xyz', 'TestXyZ'))                                           # print out your function
+
+
+
+# *Exercise 49 Solution and Explanation*
+
+# def doubleTrouble(str: str) -> str:           # set up function to take in one string as a parameter and announce we are expecting a string to be returned as well
+#     newStr = ''                               # set up a variable to hold your new string
+#     for i in range(len(str)):                 # for each letter found in the string
+#         newStr += str[i]+str[i]               # add that letter twice to our new string
+#     return newStr                             # return our new string
+
+# print(doubleTrouble('Dez'))                   # print out your function results
+
+
+
+# *Exercise 50 Solution and Explanation*
+
+# def tripleThreat(str1: str, str2: str) -> str:  # set up function to take in two strings as parameters, with the expectation that we will get a string returned
+#     newStr = ''                     # set a variable to hold an empty string that we will make into our new string
+#     if len(str1) > len(str2):       # if the second string is the smaller of the two
+#         newStr = str2+str1+str2     # this is the order we want our new string to be in
+#     else:                           # otherwise
+#         newStr = str1+str2+str1     # we want the new string organized this way
+#     return newStr                   # return our new string
+
+# print(tripleThreat('YEET','wowza')) # print out the results of our function
+
