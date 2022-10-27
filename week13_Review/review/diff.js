@@ -41,3 +41,7 @@ let sol = count.constructor() // 0
 const greeting = () => {
     console.log('greetings all')
 }
+
+domElement.addEventListener('click', () => {
+    
+})
