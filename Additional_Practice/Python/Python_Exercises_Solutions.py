@@ -781,3 +781,114 @@
 
 # print(tripleThreat('YEET','wowza')) # print out the results of our function
 
+
+
+# *Exercise 51 Solution and Explanation*
+
+# def howdy(name: str) -> str:        # set up a function to take in one string as a parameter
+#     return 'Hello ' + name + '!'    # return your new output using concatenations
+# print(howdy('Dez'))                 # print out the results of your function
+
+
+
+# *Exercise 52 Solution and Explanation*
+
+# def new_word(str1:str, str2:str) -> str:  # set up function to take in two strings
+#     first = str1[0]+str1[1]               # assign variable to hold the first half of the first string passed in
+#     last = str1[2]+str1[3]                # assign variable to hold the second half of the first string passed in
+#     result = first+str2+last              # assign a variable to hold the new order of our string
+#     return result                         # return the new string
+# print(new_word('<<>>', 'Howdy!'))         # print out our function results
+
+
+
+# *Exercise 53 Solution and Explanation*
+
+# def two(str:str) -> str:        # set up function to take in one string as a parameter
+#     if len(str) >= 2:           # if the length of the string that is passed in is 2 or greater
+#         return str[0]+str[1]    # return the first two indices of the string
+#     else:                       # otherwise
+#         return str              # return the string
+    
+# print(two('Dez'))               # print out the results of the function 
+
+
+
+# *Exercise 54 Solution and Explanation*
+
+# def tags(tag:str,word:str) -> str:          # set up our function to take in two strings as parameters
+#     openingTag = '<' + tag + '>'            # have a variable hold the opening tag we created using concatenation
+#     closingTag = '</' + tag + '>'           # have a variable hold the closing tag we created using concatenation
+#     result = openingTag + word + closingTag # have a variable holding the result of our final value using concatenation
+#     return result                           # return the new string
+# print(tags('i', "Dez"))                     # print out the results of our function
+
+
+
+# *Exercise 55 Solution and Explanation*
+
+# def wordSandwich(str1:str,str2:str) -> str:     # set up function to take in two strings
+#     return str1+str2+str2+str1                  # return the order we want our new string using concatenation
+
+# print(wordSandwich('hey','howdy'))              # print out the results of your function
+
+
+
+# *Exercise 56 Solution and Explanation*
+
+# def unluckySum(num1:int,num2:int,num3:int) -> int:  # set up function to take in three integers as parameters
+#     if num1 == 13:                                  # if the first number is a 13
+#         return 0                                    # then we want the sum to be 0
+#     elif num2 == 13:                                # if the second number is a 13
+#         return num1                                 # return only the first number
+#     elif num3 == 13:                                # if the third number is a 13
+#         return num1+num2                            # return the sum of the first two numbers
+#     else:                                           # otherwise
+#         return num1+num2+num3                       # return the sum of all nums
+# print(unluckySum(13,6,7))                           # print out the results of your function
+
+
+
+# *Exercise 57 Solution and Explanation*
+
+# def noDups(num1:int, num2:int, num3:int) -> int:    # set up function to take in three integers as parameters
+#     if num1 == num2 and num2 == num3:               # if all the values are the same
+#         return 0                                    # return 0
+#     elif num1 == num3:                              # if the first and third value is the same
+#         return num2                                 # return the second value
+#     elif num1 == num2:                              # if the first two values are the same
+#         return num3                                 # return the third value
+#     elif num2 == num3:                              # if the second and third value are the same
+#         return num1                                 # return the first value
+#     else:                                           # otherwise
+#         return num1+num2+num3                       # return the sum of all three values
+    
+# print(noDups(3,2,3))                                # print out the results of your function
+
+
+
+# *Exercise 58 Solution and Explanation*
+
+# def be9(val:list) -> int:               # set up a function to take in one list as a parameter, and indicate we are expecting an integer returned
+#     count = 0                           # set a variable to 0
+#     for i in val:                       # for each number in the list
+#         if i == 9:                      # if any number is 9
+#             count+=1                    # increment the count
+#     return count                        # return the updated count
+# print(be9([9,9,9,9,1,2,9]))             # print out the results of our function
+
+
+
+# *Exercise 59 Solution and Explanation*
+
+# def evenIndex(str:str) -> str:        # set up a function to take on one string as a parameter
+#     newStr = ''                       # set variable to hold empty string
+#     for i in range(len(str)):         # for each index position in the string
+#         if i%2 == 0:                  # if the value is at an index position that is even
+#             newStr+=str[i]            # then we want to add that value to our new string
+#     return newStr                     # return the updated new string
+# print(evenIndex('DougieDoo'))         # print out our function results
+
+
+
+

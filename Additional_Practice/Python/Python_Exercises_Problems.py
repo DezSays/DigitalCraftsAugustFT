@@ -545,3 +545,85 @@
 # tripleThreat("wowza", "YEET") → "YEETwowzaYEET"
 
 
+
+# * Exercise 51: Given a string, return a greeting in the form of "Hello given_string!"
+
+# For example:
+# howdy('Doug') → 'Hello Doug!'
+# howdy('Toru') → 'Hello Toru!'
+# howdy('Mister Meseeks') → 'Hello Mister Meseeks!'
+
+
+
+# * Exercise 52: Given two strings, the first consisting of four characters, and the second consisting of a word, return a new string where the second string is in the middle of the first string.
+
+# For example:
+# new_word('<<>>', 'Sammich') → '<<Sammich>>'
+# new_word('{{}}', 'Oh hi') → '{{Oh hi}}'
+# new_word('*!!*', 'wowza') → '*!wowza!*'
+
+
+
+# * Exercise 53: Given a string, return the string made of its first two characters. If the string is shorter than two characters, return whatever is there. 
+
+# For example
+# two('hello') → 'he'
+# two('x') → 'x'
+# two('') → ''
+
+
+
+# * Exercise 54: The web is built with HTML strings like "<i>Dez</i>" which makes the word Dez italicized. Given a tag and a word , create the HTML string with tags around the word.
+
+# For example
+# tags('i', 'dez') → '<i>dez</i>'
+# tags('a', 'link') → '<a>link</a>'
+# tags('div', 'oh hi') → '<div>oh hi</div>'
+
+
+
+# * Exercise 55: Given two strings, return the result of putting them together like this: first+second+second+first.
+
+# For example
+# wordSandwich('hey','howdy') → 'heyhowdyhowdyhey'
+# wordSandwich('day','Night') → 'dayNightNightday'
+# wordSandwich('Wowza','woohoo') → 'WowzawoohoowoohooWowza'
+
+
+
+# * Exercise 56: Given three integer values, return their sum. However, if one of the values is 13 then it does not count toward the sum, and any values found to the right of the 13 do not count towards the sum either. 
+
+# For example 
+# unluckySum(1,2,3) → 6
+# unluckySum(13,2,3) → 0
+# unluckySum(1,13,3) → 1
+
+
+
+# * Exercise 57: Given three integers, return their sum. However, if one of the values is the same as another value, then they do not count towards the sum.
+
+# For example
+# noDups(1,2,3) → 6
+# noDups(3,2,3) → 2
+# noDups(3,3,3) → 0
+
+
+
+# * Exercise 58: Given an array of integers, return the number of 9's found in an array.
+
+# For example
+# be9([1,2,9]) → 1
+# be9([1,9,9]) → 2
+# be9([9,9,9,9,1,2,9]) → 5
+
+
+
+# * Exercise 59: Given a string, return a new string made of every character that falls on an even index, starting at the beginning. 
+
+# For example
+# evenIndex('hello') → 'hlo'
+# evenIndex('DougieDoo') → 'DuiDo'
+# evenIndex('howdy') → 'h'
+
+
+

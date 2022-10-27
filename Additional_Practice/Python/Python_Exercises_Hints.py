@@ -339,3 +339,55 @@
 # *EXERCISE 50 HINT *
 # use an else/if statement to check the length of each string
 # use concatenation for the order of the new string
+
+
+
+# *EXERCISE 51 HINT *
+# use concatenation to return your desired string
+
+
+
+# *EXERCISE 52 HINT *
+# use the index values of the first string
+# use string concatenation to get your new string
+
+
+
+# *EXERCISE 53 HINT *
+# use if/else statements to check the length of the string and return accordingly
+
+
+
+# *EXERCISE 54 HINT *
+# use string concactenation for the opening tag, closing tag, and the final result
+
+
+
+# *EXERCISE 55 HINT *
+# Use string concatenation
+
+
+
+# *EXERCISE 56 HINT *
+# Use if else statement to check if each value is 13
+
+
+
+# *EXERCISE 57 HINT *
+# Use if else statement to check the following conditions: num1 == num2 and num2 == num3, num1 == num3, num2 == num3, num1 == num2
+
+
+
+# *EXERCISE 58 HINT *
+# set a variable to 0
+# use a for loop to check each value in the list
+# use an if statement to check if any value == 9
+# use an if statement to increment the count accordingly
+
+
+
+# *EXERCISE 59 HINT *
+# use the given strings index, if the index can be divided by two and has a remainder of zero, then we know that the letter in that position is one that we want.
+
+
+
