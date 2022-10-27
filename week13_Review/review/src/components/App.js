@@ -22,4 +22,4 @@ export default App
 // Above is an explicit return, see that the return keyword is used
 
 // Below is an implicit function
-const wrapper = () => setCount(count+1)
+// const wrapper = () => setCount(count+1)
