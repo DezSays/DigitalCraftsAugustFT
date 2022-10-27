@@ -4,7 +4,7 @@ const Forms = () => {
 
   const [count, setCount] = useState(0) // like saying let count = 0
   const [text, setText] = useState('howdy') // like saying let text = 'howdy'
-  const [isValid, setIsValid] = useState(true) // this sets the checkbox to initially be unchecked
+  const [isValid, setIsValid] = useState(true) // this sets the checkbox to initially be unchecked/checked
   return (
     <>
         <h2>{count}</h2>
