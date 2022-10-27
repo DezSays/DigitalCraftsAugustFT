@@ -13,6 +13,7 @@ const BaseLayout = (props) => {
             <li><Link to='/forms'>Forms</Link></li>     
             <li><Link to='/formclass'>Form Class</Link></li>     
             <li><Link to='/news'>News</Link></li>     
+            <li><Link to='/shoppinglist'>Shopping List</Link></li>     
             
         </ul>
 
