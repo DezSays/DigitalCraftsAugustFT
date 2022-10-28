@@ -7,7 +7,6 @@ import Forms from './components/Forms'
 import FormClass from './components/FormClass';
 import BaseLayout from './components/layout/BaseLayout';
 import ShoppingList from './components/ShoppingList';
-import Contacts from './components/Contacts';
 import { BrowserRouter as Router, Routes as Switch, Route } from 'react-router-dom'
 
 
@@ -22,7 +21,6 @@ root.render(
           <Route path='/formclass' element={<FormClass />} />
           <Route path='/news' element={<News />} />
           <Route path='/shoppinglist' element={<ShoppingList />} />
-          <Route path='/contacts' element={<Contacts />} />
         </Switch>
       </BaseLayout>
     </Router> 
