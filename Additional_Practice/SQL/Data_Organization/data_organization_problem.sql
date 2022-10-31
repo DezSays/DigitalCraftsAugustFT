@@ -1,6 +1,6 @@
 -- Step 1. Create a database named mockcompany.
 
--- Step 2. Create a table named employee, and have the following columns: name, position,currently_employed, gender, years_employed, salary, id.
+-- Step 2. Create a table named employee, and have the following columns: name, position, currently_employed, gender, years_employed, salary, id.
 
 -- Step 3. Add five employees to your table, 3 that are currently employed and two that are not.
 
@@ -26,6 +26,6 @@
 
 -- Step 14. Display all employees, sorted in descending order by salary.
 
--- Step 15. Display the names and salaries of the top three highest paid employees in decending order.
+-- Step 15. Display the names and salaries of the top three highest paid employees in descending order.
 
 -- Step 16. Display the name and corresponding id number of the second highest paid employee. 
