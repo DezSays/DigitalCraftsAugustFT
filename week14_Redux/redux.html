@@ -7,8 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-
-    hello world
+    <h1>Redux Introduction</h1>
 
 
     <button id="up">increment</button>
@@ -39,7 +38,7 @@
             }
         }
 
-        const  removeContact = (id) => { 
+        const removeContact = (id) => { 
 
             return {
                 type: "REMOVE_CONTACT",
@@ -132,7 +131,7 @@
         store.dispatch(addContact(4, 'Gary', 'Houston'))
         store.dispatch(addContact(5, 'Tri', 'Atlanta'))
 
-        store.dispatch(removeContact(4))
+        store.dispatch(removeContact(2))
 
 
         let up = document.getElementById('up')
