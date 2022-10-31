@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    hello world
+
+
+    <button id="up">increment</button>
+    <button id="down">decrement</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.5/redux.min.js"></script>
+
+
+    <script>
+
+        // grab button out of dom 
+        // attach event listener to button 
+        //when button is clicked, dispatch updateCount action creator to increment/decrement global count
+
+        //function = action creator 
+        //action creator = function that returns an object 
+        // the object that it returns is the action 
+        // an action is an object that has a type key and an optional payload
+        const addContact = (id, firstName, address) => { 
+            
+            return {
+                type: "ADD_CONTACT", 
+                data: {
+                    id: id, 
+                    firstName: firstName, 
+                    address: address
+                }
+            }
+        }
+
+        const  removeContact = (id) => { 
+
+            return {
+                type: "REMOVE_CONTACT",
+                id: id
+            }
+        }
+
+        const incrementCount = (num) => {
+
+            return {
+                type: "INCREMENT_COUNT", 
+                count: num
+            }
+        }
+
+        const decrementCount = (num) => {
+
+            return {
+                type: "DECREMENT_COUNT", 
+                count: num
+            }
+        }
+
+        //reducer = plain js function 
+
+        //purpose of the reducer is to update the global state
+        const reducer = (state, action) => { 
+
+            //if no state already exist, then the reducer is responsible for creating it
+
+            if(state === undefined){
+                state = {
+                    contacts: [], 
+                    count: 0
+                }
+            }
+
+
+            //look for a matching action 
+
+
+            switch(action.type){
+
+                case "ADD_CONTACT": 
+                    return {
+                        ...state, 
+                        contacts:  state.contacts.concat(action.data)
+                    }
+                case "REMOVE_CONTACT": 
+                    return {
+                        ...state, 
+                        contacts: state.contacts.filter(contact =>{
+                            return contact.id !== action.id // 3 != 3
+                        })
+                    }
+
+                case "INCREMENT_COUNT": 
+                    return {
+                        ...state, 
+                        count: state.count + action.count 
+                    }
+
+                case "DECREMENT_COUNT": 
+                    return {
+                        ...state, 
+                        count: state.count - action.count 
+                    }
+                
+                default: 
+                    return state;
+            }
+            
+
+        }
+
+
+        const store = Redux.createStore(reducer)  ///creates global store/state - root reducer 
+
+        const showState = () => { 
+            
+            console.log(store.getState()) 
+        }
+
+        store.subscribe(showState);
+
+
+        store.dispatch(addContact(1, 'Dane', 'Tampa'))
+        store.dispatch(addContact(2, 'Dez', 'Atlanta'))
+        store.dispatch(addContact(3, 'Felipe', 'Houston'))
+        store.dispatch(addContact(4, 'Gary', 'Houston'))
+        store.dispatch(addContact(5, 'Tri', 'Atlanta'))
+
+        store.dispatch(removeContact(4))
+
+
+        let up = document.getElementById('up')
+        let down = document.getElementById('down')
+
+        up.addEventListener('click', ()=>{
+
+            store.dispatch(incrementCount(10))
+        })
+
+        down.addEventListener('click', ()=>{
+
+            store.dispatch(decrementCount(10))
+        })
+    </script>
+</body>
+</html>
