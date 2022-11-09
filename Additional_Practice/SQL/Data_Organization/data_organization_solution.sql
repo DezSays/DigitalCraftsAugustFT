@@ -41,7 +41,7 @@
 
 -- Step 5. Display only the names and corresponding id numbers of employees that are currently employed.
 
---* SELECT name, id FROM employee WHERE currently_employed=TRUE;
+--* SELECT name, id FROM employee WHERE currently_employed='yes';
 
 -- Step 6. Display only the names, corresponding id numbers, and salaries of employees that have been working for more than 5 years.
 
@@ -57,19 +57,19 @@
 
 -- Step 9. Display only the names of employees that have an upper case T in their name.
 
---* SELECT name FROM employee WHERE name like '%T%';
+--* SELECT name FROM employee WHERE name like '%A%';
 
 -- Step 10. Take out the gender column from the table.
 
---* ALTER TABLE employee DROP COLUMN city;
+--* ALTER TABLE employee DROP COLUMN gender;
 
 -- Step 11. Figure out how many records you have in your database.
 
 --* SELECT COUNT(name) FROM employee;
 
--- Step 12. Display the name, position, and salary of the highest paid employee.
+-- Step 12. Display the and salary of the highest paid employee.
 
---* SELECT name, position, MAX(salary) FROM employee;
+--* SELECT MAX(salary) FROM employee;
 
 -- Step 13. Display all employees, sorted in ascending order by name.
 
@@ -81,7 +81,7 @@
 
 -- Step 15. Display the names and salaries of the top three highest paid employees in descending order.
 
---* SELECT name, salary FROM employee ORDER BY salary ASC LIMIT 3;
+--* SELECT name, salary FROM employee ORDER BY salary DESC LIMIT 3;
 
 -- Step 16. Display the name and corresponding id number of the second highest paid employee. 
 
