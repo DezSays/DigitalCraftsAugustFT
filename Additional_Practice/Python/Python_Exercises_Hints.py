@@ -391,3 +391,8 @@
 
 
 
+# *EXERCISE 60 HINT *
+# Don't overthink it. Multiply the string by the positive number.
+
+
+

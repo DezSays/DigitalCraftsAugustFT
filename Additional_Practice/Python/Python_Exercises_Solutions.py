@@ -891,4 +891,11 @@
 
 
 
+# *Exercise 60 Solution and Explanation*
+
+# def stringMult(str:str, posNum:int) -> str: # set up function to take in a string and an integer
+#     return str*posNum                       # return the string repeated however many times our number is  
+
+# print(stringMult('DougieDoo', 2))           # print out our function results
+
 

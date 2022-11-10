@@ -519,7 +519,7 @@
 
 
 
-# * Exercise 48: Given two strings, return True if either of teh strings appears at the very end of the other string, ignoring upper and lower case differences. 
+# * Exercise 48: Given two strings, return True if either of the strings appears at the very end of the other string, ignoring upper and lower case differences. 
 
 # For example:
 # ends('Testxyz', 'XyZ') → True
@@ -624,6 +624,15 @@
 # evenIndex('hello') → 'hlo'
 # evenIndex('DougieDoo') → 'DuiDo'
 # evenIndex('howdy') → 'h'
+
+
+
+# * Exercise 60: Given a string and a positive integer (posNum), return the string posNum amount of times.
+
+# For example
+# stringMult('hello',3) → 'hellohellohello'
+# stringMult('DougieDoo',2) → 'DougieDooDougieDoo'
+# stringMult('howdy',1) → 'howdy'
 
 
 
