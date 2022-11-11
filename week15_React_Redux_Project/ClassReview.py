@@ -44,3 +44,19 @@
 # * PROMPT 3 - Week 3
 
 # http://www.flexboxdefense.com/
+
+# * PROMPT 4 - Week 5
+
+# Make API call the listed site and return the current weather conditions for Cocoa Beach, FL
+# https://weatherstack.com
+# List the following:
+# Temperature
+# Wind Speeds
+# Rain Total
+
+# * SOLUTION 4
+# See ClassReview.js
+
+# * PROMPT 5 - Week 9
+
+# https://www.educaplay.com/learning-resources/13039120-week_09.html
