@@ -396,3 +396,15 @@
 
 
 
+# *EXERCISE 61 HINT *
+# Use an if else statement.
+# Check if the integer with <= and >= 
+
+
+
+# *EXERCISE 62 HINT *
+# check for the following conditions:
+# a == 7, b == 7, a+b == 7, a-b == 7, b-a == 7
+
+
+

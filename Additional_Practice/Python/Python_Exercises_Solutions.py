@@ -899,3 +899,30 @@
 # print(stringMult('DougieDoo', 2))           # print out our function results
 
 
+
+# *Exercise 61 Solution and Explanation*
+
+# def squirrelParty(nuts:int, weekend:bool) -> bool:      # set up a function to take in an integer and a boolean as parameters, with the expectation that we will get a boolean returned.
+#     if weekend == True and nuts >= 40:                  # if the boolean is true and the integer is at 40 or below
+#         return True                                     # return true
+#     elif nuts >= 40 and nuts <= 60:                     # if the integer is between 40 and 60
+#         return True                                     # return true
+#     else:                                               # otherwise
+#         return False                                    # return false
+
+# print(squirrelParty(50,False))                          # print out the results of our function
+
+
+
+# *Exercise 62 Solution and Explanation*
+
+# def lucky(a:int, b:int) -> bool:                                  # set up a function to take in two integers, with the expectation that we will have a boolean returned.
+#     if a == 7 or b == 7 or a+b == 7 or a-b == 7 or b-a == 7:      # if any of these conditions equals 7
+#         return True                                               # return True
+#     else:                                                         # otherwise
+#         return False                                              # return False
+
+# print(lucky(7,1))                                                 # print out the results of our function
+
+
+

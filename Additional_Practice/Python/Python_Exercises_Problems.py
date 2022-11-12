@@ -636,3 +636,21 @@
 
 
 
+# * Exercise 61: When squirrels get together for a party, they like to have nuts. A squirrel party is considered successfuly when the number of nuts is between 40 and 60, inclusive. Unless it is the weekend, in which case there is no upper bound on the number of nuts. Return True if the party with the given values is successful, and return False otherwise. 
+
+# For example
+# squirrelParty(30,False) → False
+# squirrelParty(50,False) → True
+# squirrelParty(70,True) → True
+
+
+
+# * Exercise 62: The number 7 is a lucky number. Given two integer values, a and b, return true if either one is seven, or if their sum or difference would equal 7. 
+
+# For example
+# lucky(3,4) → True
+# lucky(5,4) → False
+# lucky(7,1) → True
+
+
+
