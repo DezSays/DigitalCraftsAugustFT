@@ -926,3 +926,17 @@
 
 
 
+# *Exercise 63 Solution and Explanation*
+
+# def fashionShow(you:int,bff:int) -> int:                    # set up function to take in two integers as parameters, with the expectation that we will have an int returned
+#     if(you >= 8 and bff > 2) or (bff >= 8 and you > 2):     # if either parameter is at least an 8, with the other parameter being greater than 2
+#         return 2                                            # return 2
+#     if(you <=2 or bff <= 2):                                # if either parameter is a 2 or less
+#         return 0                                            # return 0
+#     else:                                                   # otherwise
+#         return 1                                            # return 1
+    
+# print(fashionShow(3,8))                                     # print out the results of your function
+
+
+

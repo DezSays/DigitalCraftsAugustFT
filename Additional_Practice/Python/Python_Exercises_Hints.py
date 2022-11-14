@@ -408,3 +408,13 @@
 
 
 
+# *EXERCISE 63 HINT *
+# if xxx:
+# return 0
+# elif yyy
+# return 2
+# else
+# return 1
+
+
+

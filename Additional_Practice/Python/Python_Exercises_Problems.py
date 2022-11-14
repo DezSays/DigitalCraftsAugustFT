@@ -654,3 +654,12 @@
 
 
 
+# * Exercise 63: You and your best friend are trying to find the right outfits for the fashion show. You are entering as a duo and will be receiving a final result of either 0, which means you do not get to be in the fashion show, 1, which means you will be an alternate should someone else drop out, or 2, which means you are in the fashion show! You and your best friend will each be scored on a scale from 0-10. If either of you recieves an 8, and the other has a score of at least 3, then you will both be going to the fashion show. If either of you recieves an 8, and the other has a score of 2 or less, then neither of you will be going to the fashion show. All other combinations will result in you being an alternate. Good luck! 
+
+# For example
+# fashionShow(5,10) → 2
+# fashionShow(10,2) → 0
+# fashionShow(5,5) → 1
+
+
+
