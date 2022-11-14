@@ -940,3 +940,26 @@
 
 
 
+# *Exercise 64 Solution and Explanation*
+
+# def squirrelWeather(temp:int, summer:bool) -> bool:         # set up function to take in one integer and one boolean as parameters
+#     if summer == True and temp >= 60 and temp <= 100:       # if it is summer and the temp is between 60-100
+#         return True                                         # return True
+#     if temp >= 60 and temp <= 90 and summer == False:       # if it is not summer and the temp is between 60-90
+#         return True                                         # return true 
+#     else:                                                   # otherwise
+#         return False                                        # return False
+    
+# print(squirrelWeather(70, False))                           # print out the results of our function
+
+
+
+# *Exercise 65 Solution and Explanation*
+
+# def sum20(a:int,b:int) -> int:              # set up function to take in two integers as parameters
+#     sum = a+b                               # assign variable to hold the sum value
+#     if sum <= 19 and sum >= 10:             # if the sum is between 10-19
+#         return 20                           # return the number 20
+#     else:                                   # otherwise
+#         return sum                          # return the sum
+# print(sum20(9,4))                           # print out the results of our function

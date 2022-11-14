@@ -663,3 +663,18 @@
 
 
 
+# * Exercise 64: The squirrels spend most of the day playing. They will play as long as the temperature is between 60 and 90 degrees all year. If it is summer, they can play in 60-100 degree weather. Given an integer as the temperature, and boolean value on if it is summer or not, return True if the squirrels can go outside to play and False otherwise. 
+
+# For example
+# squirrelWeather(70, False) → True
+# squirrelWeather(95, False) → False
+# squirrelWeather(95, True) → True
+
+
+
+# * Exercise 65: Given two integers, return their sum. However, if the sum would equal a number between 10-19, then just return the number 20. 
+
+# For example
+# sum20(3, 4) → 7
+# sum20(9, 4) → 20
+# sum20(10, 11) → 21

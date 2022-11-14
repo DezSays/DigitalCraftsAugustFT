@@ -409,12 +409,19 @@
 
 
 # *EXERCISE 63 HINT *
-# if xxx:
-# return 0
-# elif yyy
-# return 2
-# else
-# return 1
+# if xxx: return 0
+# elif yyy: return 2
+# else: return 1
 
 
 
+# *EXERCISE 64 HINT *
+# if it is summer and the temp is between 60-100: return True
+# elif it is not summber and the temp is between 60-90: return True
+# else: return False
+
+
+
+# *EXERCISE 65 HINT *
+# calculate the sum and assign to a variable, like so: sum = a+b
+# use an if/else statement to check conditions
