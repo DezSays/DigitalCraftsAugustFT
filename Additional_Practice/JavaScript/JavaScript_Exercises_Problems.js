@@ -190,3 +190,89 @@
 // ]
 
 
+
+
+//* Exercise 26: Write a function that will sum the elements within two arrays. Take both of those sums, and return the final sum. *
+
+// For example:
+// let arr1 = [1,2,3,4,5] --> 15
+// let arr2 = [6,7,8,9,10] --> 40
+// Expected output: 55
+
+
+
+
+//* Exercise 27: Using a for loop in a function print all even numbers up to and including n. Do not include 0. *
+
+// For example:
+// let n1 = 22;
+// expected output:
+// 2,4,6,8,10,12,14,16,18,20,22
+
+
+
+
+//* Exercise 28: Using a for loop in a function output the elements in reverse order. *
+
+// For example:
+// let arr = [43, "what", 9, true, "cannot", false, "be", 3, true];
+// expected output:
+// true 3.5  be  false cannot  true 9 what 43 OR each item on a new line
+
+
+
+
+
+//* Exercise 29: Given two arrays of integers. Add up each element in the same position and create a new array containing the sum of each pair. Assume both arrays are of the same length. *
+
+// For example:
+// let arr1 = [4, 6, 7];
+// let arr2 = [8, 1, 9];
+// expected output:
+// [12, 7, 16]
+
+
+
+
+//* Exercise 30: Given a string change the every second letter to an uppercase ‘Z’. Assume there are no space. *
+
+// For example:
+// let str1 = "javascript";  
+// expected output:
+// jZvZsZrZpZ
+
+
+
+
+//* Exercise 31: Check if a string contains the letter “y”. Print “yes” if it does and “no” if it does not. *
+
+// let str = "don’t know why";
+// expected output: 
+// “yes” 
+
+
+
+
+// Exercise 32: Write a program that will allow someone to guess a four digit pin exactly 4 times. If the user guesses the number correctly. It prints “That was correct!” Otherwise it will print “Sorry that was wrong.” Program stops after the 4th attempt of if they got it right. *
+
+// let pin = 0704;
+// expected output:
+// Please make your guess: 
+// 4544 
+// Sorry that was wrong.
+// Please make your guess: 
+// 4444
+// Sorry that was wrong.
+// Please make your guess: 
+// 0704
+// That was correct!
+
+
+// Exercise 33: Write a program that will check if two strings are palindromes. A palindrome is a word that spells the same forward and backward. Palindrome: a word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
+// let str1 = "racecar";
+// let str2 = "Java";
+// expected output:
+// string1 palindrome?: 
+// Yes 
+// string2 palindrome?: 
+// No 

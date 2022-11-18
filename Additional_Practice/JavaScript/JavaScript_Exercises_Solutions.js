@@ -169,7 +169,7 @@
 // console.log(result)                            // Print out your results
 
 
-// * Exercise 11: Solution *
+// * Exercise 11: Solution and Explanation *
 
 // let arr1 = [1,2,3,4,5];                      //set up our first array
 // let arr2 = [6,7,8,9,10];                     //set up our second array
@@ -192,7 +192,7 @@
 // console.log(result)                              //print out the results
 
 
-// * Exercise 12: Solution *
+// * Exercise 12: Solution and Explanation *
 
 // let nums = [27, 1, -1, 8, 3, -26];               //set up an array that needs to be sorted
 
@@ -225,7 +225,7 @@
 // console.log(result);                             //print out the results
 
 
-// * Exercise 13: Solution *
+// * Exercise 13: Solution and Explanation *
 
 // const p = document.querySelector('p');       // select all p tags and assign to variable p so we can manipulate the data below
 // p.innerHTML = p.innerText                    // set the innerhtml equal to the innertext of all p tags
@@ -234,7 +234,7 @@
 //   .join(' ');                                // add those spaces back in there 
 
 
-// * Exercise 14: Solution *
+// * Exercise 14: Solution and Explanation *
 
 // const link = document.createElement('a');    // assign variable link to create a tags
 // link.href = `http://forcemipsum.com/`;       // add an href with a passed in url
@@ -242,7 +242,7 @@
 // document.body.appendChild(link);             // we are then adding this link to the bottom of the body
 
 
-// * Exercise 15: Solution *
+// * Exercise 15: Solution and Explanation *
 
 // const p = document.querySelector('p');       // assign variable to hold our p tags
 // p.innerHTML = p.innerText                    // set the innerHTML to the innerText
@@ -251,7 +251,7 @@
 
 
 
-// * Exercise 16: Solution *
+// * Exercise 16: Solution and Explanation *
 
 // const p = document.querySelector('p');                   // assign variable to hold our p tags
 // const wordCount = p.innerText.split(' ').length;         // assign variable wordcount to be the length of the text if there were no spaces in it
@@ -261,7 +261,7 @@
 
 
 
-// * Exercise 17: Solution *
+// * Exercise 17: Solution and Explanation *
 
 // const paragraph = document.querySelector('p');                   // grab all the p tags
 // paragraph.innerHTML = paragraph.innerText.replace(/[?]/g, '🤔'); // replace the question marks in our p tags with the thinking emoji
@@ -269,14 +269,14 @@
 
 
 
-// * Exercise 18: Solution *
+// * Exercise 18: Solution and Explanation *
 
 // const nums = [1,2,3,4,5]            // set up our list of numbers
 // const result = nums.includes(2)     // using the includes method, check if a 2 is in our list
 // console.log(result)                 // print our our results
 
 
-// * Exercise 19: Solution *
+// * Exercise 19: Solution and Explanation *
 
 // const shop = [
 //     { name: 'computer', price: 1000 },
@@ -301,7 +301,7 @@
 
 
 
-// * Exercise 20: Solution *
+// * Exercise 20: Solution and Explanation *
 
 // const shop = [
 //     { name: 'computer', price: 1000 },
@@ -324,7 +324,7 @@
 
 
 
-// * Exercise 21: Solution *
+// * Exercise 21: Solution and Explanation *
 
 // const shop = [
 //     { name: 'computer', price: 1000 },
@@ -347,7 +347,7 @@
 
 
 
-// * Exercise 22: Solution *
+// * Exercise 22: Solution and Explanation *
 
 // const shop = [
 //     { name: 'computer', price: 1000 },
@@ -368,7 +368,7 @@
 
 
 
-// * Exercise 23: Solution *
+// * Exercise 23: Solution and Explanation *
 
 // const shop = [
 //     { name: 'computer', price: 1000 },
@@ -391,7 +391,7 @@
 
 
 
-// * Exercise 24: Solution *
+// * Exercise 24: Solution and Explanation *
 
 // const shop = [
 //     { name: 'computer', price: 1000 },
@@ -414,7 +414,7 @@
 
 
 
-// * Exercise 25: Solution *
+// * Exercise 25: Solution and Explanation *
 
 // const shop = [
 //     { name: 'computer', price: 1000 },
@@ -434,4 +434,108 @@
 //         console.log(item.name)                              // we will return the items names
 //     }            
 // })
+
+
+
+
+// * Exercise 26: Solution *
+
+// let arr1 = [1,2,3,4,5] 
+// let arr2 = [6,7,8,9,10] 
+
+// function sumNum(arr1,arr2){
+//     let num = 0
+//     for(i=0;i< arr1.length;i++){
+//         let val = arr1[i]
+//         num+=val
+//     }
+//     for(x=0;x<arr2.length;x++){
+//         let val = arr2[x]
+//         num+=val
+//     }
+//     return num 
+// }
+
+// let result = sumNum(arr1,arr2)
+// console.log(result)
+
+
+
+
+// * Exercise 27: Solution *
+
+// function getEven(num){
+//     for(i=2;i<=num;i+=2){
+//         console.log(i)
+//     }
+// }
+// getEven(22)
+
+
+
+
+// * Exercise 28: Solution *
+
+// let arr = [43, "what", 9, true, "cannot", false, "be", 3, true];
+
+// function revArr(arr){
+//     for(i=arr.length-1;i>=0;i--){
+//         console.log(arr[i]);
+//     }
+// }
+// revArr(arr)
+
+
+
+
+// * Exercise 29: Solution *
+
+// let arr1 = [4, 6, 7];
+// let arr2 = [8, 1, 9];
+
+// function sumArr(arr1,arr2){
+//     let newArr = []
+//     for(i=0;i<arr1.length;i++){
+//         let num1 = arr1[i]
+//         let num2 = arr2[i]
+//         let val = num1+num2
+//         console.log(val)
+//         newArr.push(val)
+//     }
+//     return newArr
+// }
+// sumArr(arr1,arr2)
+
+
+
+
+
+// * Exercise 30: Solution *
+
+// let str1 = "javascript";  
+
+// const res = [...str1].map((letter, index)=>{
+//  return index % 2 != 0 ? "Z" : letter
+// })
+
+// console.log(res.join(""))
+
+
+
+
+// * Exercise 31: Solution *
+
+// let str = "don’t know why";
+
+// function checkY(str){
+//     if(str.includes('y') || str.includes('Y')){
+//         console.log("yes")
+//     }
+//     else{
+//         console.log("no")
+//     }
+// }
+
+// checkY(str)
+
 
